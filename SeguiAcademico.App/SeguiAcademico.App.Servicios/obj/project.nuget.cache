@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TpAPr68fVMSQPFuPFFSiADQZiUct7pdtOHrZQwS+5Wv4cVCCIvm9wWy7nLj01Ol5pLFau5kiogSj88ejCRE4QQ==",
+  "dgSpecHash": "cCi1w7rk7WBpMrfn3jb6nER+QiQIqAp7Ydv+HWFPvBsk1V8jIqHq4O7fcTwnWenSsrJIjTc7XAi2os9uwuYjJg==",
   "success": true,
-  "projectFilePath": "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Servicios\\SeguiAcademico.App.Servicios.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\gonza\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
-    "C:\\Users\\gonza\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\gonza\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
-    "C:\\Users\\gonza\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
-    "C:\\Users\\gonza\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
-    "C:\\Users\\gonza\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\SeguimientoAcademico\\SeguiAcademico.App\\SeguiAcademico.App.Servicios\\SeguiAcademico.App.Servicios.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

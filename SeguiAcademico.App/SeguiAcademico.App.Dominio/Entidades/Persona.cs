@@ -1,4 +1,5 @@
 using System;
+
 namespace SeguiAcademico.App.Dominio
 {
     public class Persona
@@ -10,4 +11,3 @@ namespace SeguiAcademico.App.Dominio
         public Genero Genero {get;set;}
     }
 }
-    

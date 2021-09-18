@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "EupGSbmKaQDmEZWySPgytMt6fJepz1yBW+ilG8ad6pIOYkY1mA7JzOMcjI/I3UDaJv6WfYZEKPa5A7pnVfec9Q==",
+  "dgSpecHash": "vuyKSlGnyCd1lKOhjjSf4yabSsih70vhpMwUyykfAFFhlkXPVMM8hpxbAIZoDJBrcAvGiWobEsX59rJv9fQ/pw==",
   "success": true,
-  "projectFilePath": "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Dominio\\SeguiAcademico.App.Dominio.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\gonza\\OneDrive\\Escritorio\\SeguimientoAcademico\\SeguiAcademico.App\\SeguiAcademico.App.Dominio\\SeguiAcademico.App.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gonza\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\gonza\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
