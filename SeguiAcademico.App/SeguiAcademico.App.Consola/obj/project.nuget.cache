@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ui/DxDFOXxoZ+gdR5Rb/8fI4xNOx8zf2KZVXYonfUglgUM5eBPeMwb5laEtIPTWi0Q8P/l9mGAIk1Cdu63fTdQ==",
+  "dgSpecHash": "j3+A16cr8oTXeawnIB3cGvt6/liJ+lz7QHtJSZZhcTuA/X33ZKPwXkASYv9erc7FxT52QXI7HuVRXtVlyNQzyw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gonza\\OneDrive\\Escritorio\\SeguimientoAcademico\\SeguiAcademico.App\\SeguiAcademico.App.Consola\\SeguiAcademico.App.Consola.csproj",
+  "projectFilePath": "C:\\Seguimiento\\SeguiAcademico.App\\seguiAcademico.App.Consola\\SeguiAcademico.App.Consola.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gonza\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\gonza\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -99,8 +99,7 @@
     "C:\\Users\\gonza\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\gonza\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\gonza\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\gonza\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\gonza\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
+    "C:\\Users\\gonza\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

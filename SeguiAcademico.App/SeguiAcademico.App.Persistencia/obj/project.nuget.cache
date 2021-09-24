@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "salbH7XZe8Dajpseg/445JnWZ1Q/DYNuCaLHcpPXv/B3ahiUuo37HIUr4SlkZynludkCcKxtJbRdkOxE3UCm2A==",
+  "dgSpecHash": "J+w42AeoZonq/uzcLdiW/L5ZMgF8O806O8EscvlZtR10kE48tozPqENJun+JxY8+bJ/3lFSinjqlbRZksD926g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gonza\\OneDrive\\Escritorio\\SeguimientoAcademico\\SeguiAcademico.App\\SeguiAcademico.App.Persistencia\\SeguiAcademico.App.Persistencia.csproj",
+  "projectFilePath": "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Persistencia\\SeguiAcademico.App.Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gonza\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\gonza\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

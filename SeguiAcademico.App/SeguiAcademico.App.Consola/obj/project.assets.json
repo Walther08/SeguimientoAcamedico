@@ -5792,6 +5792,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.EntityFrameworkCore.Design >= 5.0.0",
+      "SeguiAcademico.App.Dominio >= 1.0.0",
       "SeguiAcademico.App.Persistencia >= 1.0.0"
     ]
   },
@@ -5801,11 +5802,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gonza\\OneDrive\\Escritorio\\SeguimientoAcademico\\SeguiAcademico.App\\SeguiAcademico.App.Consola\\SeguiAcademico.App.Consola.csproj",
+      "projectUniqueName": "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Consola\\SeguiAcademico.App.Consola.csproj",
       "projectName": "SeguiAcademico.App.Consola",
-      "projectPath": "C:\\Users\\gonza\\OneDrive\\Escritorio\\SeguimientoAcademico\\SeguiAcademico.App\\SeguiAcademico.App.Consola\\SeguiAcademico.App.Consola.csproj",
+      "projectPath": "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Consola\\SeguiAcademico.App.Consola.csproj",
       "packagesPath": "C:\\Users\\gonza\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gonza\\OneDrive\\Escritorio\\SeguimientoAcademico\\SeguiAcademico.App\\SeguiAcademico.App.Consola\\obj\\",
+      "outputPath": "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Consola\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gonza\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5820,8 +5821,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\gonza\\OneDrive\\Escritorio\\SeguimientoAcademico\\SeguiAcademico.App\\SeguiAcademico.App.Persistencia\\SeguiAcademico.App.Persistencia.csproj": {
-              "projectPath": "C:\\Users\\gonza\\OneDrive\\Escritorio\\SeguimientoAcademico\\SeguiAcademico.App\\SeguiAcademico.App.Persistencia\\SeguiAcademico.App.Persistencia.csproj"
+            "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Dominio\\SeguiAcademico.App.Dominio.csproj": {
+              "projectPath": "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Dominio\\SeguiAcademico.App.Dominio.csproj"
+            },
+            "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Persistencia\\SeguiAcademico.App.Persistencia.csproj": {
+              "projectPath": "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Persistencia\\SeguiAcademico.App.Persistencia.csproj"
             }
           }
         }
@@ -5853,18 +5857,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.18, 3.1.18]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

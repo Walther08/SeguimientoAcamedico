@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gonza\\OneDrive\\Escritorio\\SeguimientoAcademico\\SeguiAcademico.App\\SeguiAcademico.App.Dominio\\SeguiAcademico.App.Dominio.csproj",
+      "projectUniqueName": "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Dominio\\SeguiAcademico.App.Dominio.csproj",
       "projectName": "SeguiAcademico.App.Dominio",
-      "projectPath": "C:\\Users\\gonza\\OneDrive\\Escritorio\\SeguimientoAcademico\\SeguiAcademico.App\\SeguiAcademico.App.Dominio\\SeguiAcademico.App.Dominio.csproj",
+      "projectPath": "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Dominio\\SeguiAcademico.App.Dominio.csproj",
       "packagesPath": "C:\\Users\\gonza\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gonza\\OneDrive\\Escritorio\\SeguimientoAcademico\\SeguiAcademico.App\\SeguiAcademico.App.Dominio\\obj\\",
+      "outputPath": "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gonza\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -233,7 +233,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
