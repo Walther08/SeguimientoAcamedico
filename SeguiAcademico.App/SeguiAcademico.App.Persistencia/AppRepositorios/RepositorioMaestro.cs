@@ -14,14 +14,14 @@ namespace SeguiAcademico.App.Persistencia
         _appContext = appContext;
         }
 
-        Maestro IRepositorioMaestro.AñadirMaestro(Maestro maestro)
+        Maestro IRepositorioMaestro.AddMaestro(Maestro maestro)
         {
             var NuevoMaestro= _appContext.Maestros.Add(maestro);
             _appContext.SaveChanges();
             return NuevoMaestro.Entity;
         }
 
-        void IRepositorioMaestro.EliminarMaestro(int idMaestro)
+        void IRepositorioMaestro.DeleteMaestro(int idMaestro)
         {
             var MaestroBuscado= _appContext.Maestros.FirstOrDefault(p => p.Id == idMaestro);
             if (MaestroBuscado==null)
@@ -30,12 +30,12 @@ namespace SeguiAcademico.App.Persistencia
             _appContext.SaveChanges();
         }
 
-        IEnumerable<Maestro> IRepositorioMaestro.ObtenerTodosMaestros()
+        IEnumerable<Maestro> IRepositorioMaestro.GetAllMaestros()
         {
             return _appContext.Maestros;
         }
 
-        Maestro IRepositorioMaestro.ActualizarMaestro(Maestro maestro)
+        Maestro IRepositorioMaestro.UpdateMaestro(Maestro maestro)
         {
             var MaestroBuscado= _appContext.Maestros.FirstOrDefault(p => p.Id == maestro.Id);
             if(MaestroBuscado!=null)
@@ -53,7 +53,7 @@ namespace SeguiAcademico.App.Persistencia
             return MaestroBuscado;
         }
 
-        Maestro IRepositorioMaestro.BuscarMaestro(int idMaestro)
+        Maestro IRepositorioMaestro.GetMaestro(int idMaestro)
         {
             var MaestroBuscado= _appContext.Maestros.FirstOrDefault(p => p.Id == idMaestro);
             return MaestroBuscado;

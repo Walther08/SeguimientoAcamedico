@@ -6,10 +6,10 @@ namespace SeguiAcademico.App.Persistencia
 {
     public interface IRepositorioMaestro
     {
-        IEnumerable<Maestro> ObtenerTodosMaestros();
-        Maestro AñadirMaestro(Maestro maestro);
-        Maestro ActualizarMaestro (Maestro maestro);
-        void EliminarMaestro (int idMaestro);
-        Maestro BuscarMaestro (int idMaestro);
+        IEnumerable<Maestro> GetAllMaestros();
+        Maestro AddMaestro(Maestro maestro);
+        Maestro UpdateMaestro (Maestro maestro);
+        void DeleteMaestro (int idMaestro);
+        Maestro GetMaestro (int idMaestro);
     }
 }
