@@ -6,7 +6,7 @@ namespace SeguiAcademico.App.Persistencia
     public class AppContext : DbContext
     {
         public DbSet<Informe> Informe {get; set;}
-        public DbSet<Persona> Personas {get; set;} //-Debe ir una tabla de la entidad Persona?
+        public DbSet<Persona> Personas {get; set;} 
         public DbSet<Estudiante> Estudiantes {get; set;}
         public DbSet<Maestro> Maestros {get; set;}
         public DbSet<Tutor> Tutores {get; set;}

@@ -3,15 +3,13 @@ using SeguiAcademico.App.Dominio;
 using System.Linq;
 using System;
 
+
 namespace SeguiAcademico.App.Persistencia
 {
     public class RepositorioEstudiante : IRepositorioEstudiante
     {
-        private readonly SeguiAcademico.App.Persistencia.AppContext _appContext;
-        public RepositorioEstudiante(SeguiAcademico.App.Persistencia.AppContext appContext)
-        {
-            _appContext= appContext;
-        }
+        private readonly AppContext _appContext = new AppContext();
+        
         Estudiante IRepositorioEstudiante.AddEstudiante(Estudiante estudiante)
         {
             var estudianteAdicionado= _appContext.Estudiantes.Add(estudiante);
@@ -50,7 +48,7 @@ namespace SeguiAcademico.App.Persistencia
             var estudianteEncontrado= _appContext.Estudiantes.FirstOrDefault(e => e.Id == IdEstudiante);
             if(estudianteEncontrado==null)
             return;
-            _appContext.Remove(estudianteEncontrado);
+            _appContext.Estudiantes.Remove(estudianteEncontrado);
             _appContext.SaveChanges();
         }
         Estudiante IRepositorioEstudiante.GetEstudiante(int IdEstudiante)

@@ -7,12 +7,7 @@ namespace SeguiAcademico.App.Persistencia
 {
     public class RepositorioMaestro:IRepositorioMaestro
     {
-        private readonly SeguiAcademico.App.Persistencia.AppContext _appContext;
-
-        public RepositorioMaestro(SeguiAcademico.App.Persistencia.AppContext appContext)
-        {
-        _appContext = appContext;
-        }
+        private readonly AppContext _appContext = new AppContext();
 
         Maestro IRepositorioMaestro.AddMaestro(Maestro maestro)
         {

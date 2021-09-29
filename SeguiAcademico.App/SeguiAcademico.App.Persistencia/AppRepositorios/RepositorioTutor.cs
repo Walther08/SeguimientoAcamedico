@@ -7,11 +7,7 @@ namespace SeguiAcademico.App.Persistencia
 {
     public class RepositorioTutor : IRepositorioTutor
     {
-        private readonly SeguiAcademico.App.Persistencia.AppContext _appContext;
-        public RepositorioTutor(SeguiAcademico.App.Persistencia.AppContext appContext)
-        {
-            _appContext= appContext;
-        }
+        private readonly AppContext _appContext = new AppContext();
         Tutor IRepositorioTutor.AddTutor(Tutor tutor)
         {
             var tutorAdicionado= _appContext.Tutores.Add(tutor);
@@ -41,7 +37,7 @@ namespace SeguiAcademico.App.Persistencia
             var tutorEncontrado= _appContext.Tutores.FirstOrDefault(t => t.Id == IdTutor);
             if(tutorEncontrado==null)
             return;
-            _appContext.Remove(tutorEncontrado);
+            _appContext.Tutores.Remove(tutorEncontrado);
             _appContext.SaveChanges();
         }
         Tutor IRepositorioTutor.GetTutor(int IdTutor)

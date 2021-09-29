@@ -3,15 +3,13 @@ using SeguiAcademico.App.Dominio;
 using System.Linq;
 using System;
 
+
 namespace SeguiAcademico.App.Persistencia
 {
     public class RepositorioAcudienteDesignado : IRepositorioAcudienteDesignado
     {
-        private readonly SeguiAcademico.App.Persistencia.AppContext _appContext;
-        public RepositorioAcudienteDesignado(SeguiAcademico.App.Persistencia.AppContext appContext)
-        {
-            _appContext= appContext;
-        }
+        private readonly AppContext _appContext = new AppContext();
+        
         AcudienteDesignado IRepositorioAcudienteDesignado.AddAcudiente(AcudienteDesignado acudiente)
         {
             var acudienteAdicionado= _appContext.AcudientesDesignados.Add(acudiente);
@@ -41,7 +39,7 @@ namespace SeguiAcademico.App.Persistencia
             var acudienteEncontrado= _appContext.AcudientesDesignados.FirstOrDefault(a => a.Id == IdAcudiente);
             if(acudienteEncontrado==null)
             return;
-            _appContext.Remove(acudienteEncontrado);
+            _appContext.AcudientesDesignados.Remove(acudienteEncontrado);
             _appContext.SaveChanges();
         }
         AcudienteDesignado IRepositorioAcudienteDesignado.GetAcudiente(int IdAcudiente)
