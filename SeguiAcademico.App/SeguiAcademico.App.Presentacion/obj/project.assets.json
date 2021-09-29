@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
+    ".NETCoreApp,Version=v3.1": {
       "Microsoft.CSharp/4.5.0": {
         "type": "package",
         "compile": {
@@ -188,10 +188,10 @@
           "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
         },
         "compile": {
-          "lib/net5.0/Microsoft.Extensions.DependencyInjection.dll": {}
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll": {}
         },
         "runtime": {
-          "lib/net5.0/Microsoft.Extensions.DependencyInjection.dll": {}
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll": {}
         }
       },
       "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
@@ -209,7 +209,8 @@
           "Microsoft.Extensions.DependencyInjection": "5.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
-          "Microsoft.Extensions.Options": "5.0.0"
+          "Microsoft.Extensions.Options": "5.0.0",
+          "System.Diagnostics.DiagnosticSource": "5.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
@@ -234,10 +235,10 @@
           "Microsoft.Extensions.Primitives": "5.0.0"
         },
         "compile": {
-          "lib/net5.0/Microsoft.Extensions.Options.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.Options.dll": {}
         },
         "runtime": {
-          "lib/net5.0/Microsoft.Extensions.Options.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.Options.dll": {}
         }
       },
       "Microsoft.Extensions.Primitives/5.0.0": {
@@ -605,10 +606,10 @@
       "System.Diagnostics.DiagnosticSource/5.0.0": {
         "type": "package",
         "compile": {
-          "lib/net5.0/System.Diagnostics.DiagnosticSource.dll": {}
+          "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
         },
         "runtime": {
-          "lib/net5.0/System.Diagnostics.DiagnosticSource.dll": {}
+          "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
         }
       },
       "System.Diagnostics.Tools/4.3.0": {
@@ -5731,41 +5732,40 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0": [
+    ".NETCoreApp,Version=v3.1": [
       "SeguiAcademico.App.Dominio >= 1.0.0",
       "SeguiAcademico.App.Persistencia >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gonza\\.nuget\\packages\\": {}
+    "C:\\Users\\aleja\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Presentacion\\SeguiAcademico.App.Presentacion.csproj",
+      "projectUniqueName": "C:\\SeguiAcademicoGitHub\\SeguimientoAcamedico\\SeguiAcademico.App\\SeguiAcademico.App.Presentacion\\SeguiAcademico.App.Presentacion.csproj",
       "projectName": "SeguiAcademico.App.Presentacion",
-      "projectPath": "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Presentacion\\SeguiAcademico.App.Presentacion.csproj",
-      "packagesPath": "C:\\Users\\gonza\\.nuget\\packages\\",
-      "outputPath": "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Presentacion\\obj\\",
+      "projectPath": "C:\\SeguiAcademicoGitHub\\SeguimientoAcamedico\\SeguiAcademico.App\\SeguiAcademico.App.Presentacion\\SeguiAcademico.App.Presentacion.csproj",
+      "packagesPath": "C:\\Users\\aleja\\.nuget\\packages\\",
+      "outputPath": "C:\\SeguiAcademicoGitHub\\SeguimientoAcamedico\\SeguiAcademico.App\\SeguiAcademico.App.Presentacion\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\gonza\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\aleja\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "netcoreapp3.1"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Dominio\\SeguiAcademico.App.Dominio.csproj": {
-              "projectPath": "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Dominio\\SeguiAcademico.App.Dominio.csproj"
+            "C:\\SeguiAcademicoGitHub\\SeguimientoAcamedico\\SeguiAcademico.App\\SeguiAcademico.App.Dominio\\SeguiAcademico.App.Dominio.csproj": {
+              "projectPath": "C:\\SeguiAcademicoGitHub\\SeguimientoAcamedico\\SeguiAcademico.App\\SeguiAcademico.App.Dominio\\SeguiAcademico.App.Dominio.csproj"
             },
-            "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Persistencia\\SeguiAcademico.App.Persistencia.csproj": {
-              "projectPath": "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Persistencia\\SeguiAcademico.App.Persistencia.csproj"
+            "C:\\SeguiAcademicoGitHub\\SeguimientoAcamedico\\SeguiAcademico.App\\SeguiAcademico.App.Persistencia\\SeguiAcademico.App.Persistencia.csproj": {
+              "projectPath": "C:\\SeguiAcademicoGitHub\\SeguimientoAcamedico\\SeguiAcademico.App\\SeguiAcademico.App.Persistencia\\SeguiAcademico.App.Persistencia.csproj"
             }
           }
         }
@@ -5777,8 +5777,7 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "netcoreapp3.1": {
         "imports": [
           "net461",
           "net462",
@@ -5797,7 +5796,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
       }
     }
   }
