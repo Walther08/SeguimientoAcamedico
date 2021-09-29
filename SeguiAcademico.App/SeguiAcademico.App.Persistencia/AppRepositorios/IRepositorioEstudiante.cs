@@ -12,6 +12,7 @@ namespace SeguiAcademico.App.Persistencia
     void DeleteEstudiante (int IdEstudiante);
     Estudiante GetEstudiante (int IdEstudiante);
     AcudienteDesignado AsignAcudienteDesignado (int IdEstudiante, int IdAcudienteDesignado);
+    Maestro AsignMaestro (int IdMaestro, int IdEstudiante);
     
     }
     

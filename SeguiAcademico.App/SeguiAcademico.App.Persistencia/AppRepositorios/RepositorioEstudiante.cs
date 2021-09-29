@@ -76,6 +76,21 @@ namespace SeguiAcademico.App.Persistencia
             }
             return null;
         }
+        Maestro IRepositorioEstudiante.AsignMaestro(int IdMaestro, int IdEstudiante) 
+        {
+            var estudianteEncontrado = _appContext.Estudiantes.FirstOrDefault(e => e.Id == IdEstudiante);
+            if(estudianteEncontrado!=null)
+            {
+                var maestroEncontrado = _appContext.Maestros.FirstOrDefault(m => m.Id == IdMaestro);
+                if(maestroEncontrado!=null)
+                {
+                    estudianteEncontrado.Maestro = maestroEncontrado;
+                    _appContext.SaveChanges();
+                }
+                return maestroEncontrado;
+            }
+            return null;
+        }
                   
     }
 }
