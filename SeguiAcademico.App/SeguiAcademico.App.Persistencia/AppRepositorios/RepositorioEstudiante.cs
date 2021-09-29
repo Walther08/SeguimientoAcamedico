@@ -60,6 +60,22 @@ namespace SeguiAcademico.App.Persistencia
         {
             return _appContext.Estudiantes;
         }
+
+        AcudienteDesignado IRepositorioEstudiante.AsignAcudienteDesignado (int IdEstudiante, int IdAcudienteDesignado)
+        {
+            var estudianteEncontrado = _appContext.Estudiantes.FirstOrDefault(e => e.Id == IdEstudiante);
+            if(estudianteEncontrado!=null)
+            {
+                var acudienteEncontrado = _appContext.AcudientesDesignados.FirstOrDefault(a => a.Id == IdAcudienteDesignado);
+                if(acudienteEncontrado!=null)
+                {
+                    estudianteEncontrado.AcudienteDesignado = acudienteEncontrado;
+                    _appContext.SaveChanges();
+                }
+                return acudienteEncontrado;
+            }
+            return null;
+        }
                   
     }
 }
