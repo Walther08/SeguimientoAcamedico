@@ -36,3 +36,15 @@ C:\Seguimiento\SeguiAcademico.App\SeguiAcademico.App.Persistencia\bin\Debug\nets
 C:\Seguimiento\SeguiAcademico.App\SeguiAcademico.App.Persistencia\bin\Debug\netstandard2.1\SeguiAcademico.App.Dominio.dll
 C:\Seguimiento\SeguiAcademico.App\SeguiAcademico.App.Persistencia\bin\Debug\netstandard2.1\SeguiAcademico.App.Dominio.pdb
 C:\Seguimiento\SeguiAcademico.App\SeguiAcademico.App.Persistencia\obj\Debug\netstandard2.1\SeguiAcademico.App.Persistencia.csproj.CopyComplete
+C:\SeguiAcademicoGitHub\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.App.Persistencia\bin\Debug\netstandard2.1\SeguiAcademico.App.Persistencia.deps.json
+C:\SeguiAcademicoGitHub\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.App.Persistencia\bin\Debug\netstandard2.1\SeguiAcademico.App.Persistencia.dll
+C:\SeguiAcademicoGitHub\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.App.Persistencia\bin\Debug\netstandard2.1\SeguiAcademico.App.Persistencia.pdb
+C:\SeguiAcademicoGitHub\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.App.Persistencia\bin\Debug\netstandard2.1\SeguiAcademico.App.Dominio.dll
+C:\SeguiAcademicoGitHub\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.App.Persistencia\bin\Debug\netstandard2.1\SeguiAcademico.App.Dominio.pdb
+C:\SeguiAcademicoGitHub\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.App.Persistencia\obj\Debug\netstandard2.1\SeguiAcademico.App.Persistencia.csprojAssemblyReference.cache
+C:\SeguiAcademicoGitHub\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.App.Persistencia\obj\Debug\netstandard2.1\SeguiAcademico.App.Persistencia.AssemblyInfoInputs.cache
+C:\SeguiAcademicoGitHub\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.App.Persistencia\obj\Debug\netstandard2.1\SeguiAcademico.App.Persistencia.AssemblyInfo.cs
+C:\SeguiAcademicoGitHub\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.App.Persistencia\obj\Debug\netstandard2.1\SeguiAcademico.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\SeguiAcademicoGitHub\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.App.Persistencia\obj\Debug\netstandard2.1\SeguiAcademico.App.Persistencia.csproj.CopyComplete
+C:\SeguiAcademicoGitHub\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.App.Persistencia\obj\Debug\netstandard2.1\SeguiAcademico.App.Persistencia.dll
+C:\SeguiAcademicoGitHub\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.App.Persistencia\obj\Debug\netstandard2.1\SeguiAcademico.App.Persistencia.pdb

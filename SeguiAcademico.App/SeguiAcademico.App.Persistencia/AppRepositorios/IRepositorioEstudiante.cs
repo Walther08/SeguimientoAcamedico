@@ -11,6 +11,7 @@ namespace SeguiAcademico.App.Persistencia
     Estudiante UpdateEstudiante (Estudiante estudiante);
     void DeleteEstudiante (int IdEstudiante);
     Estudiante GetEstudiante (int IdEstudiante);
+    AcudienteDesignado AsignAcudienteDesignado (int IdEstudiante, int IdAcudienteDesignado);
     
     }
     
