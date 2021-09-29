@@ -8,11 +8,8 @@ namespace SeguiAcademico.App.Persistencia
 {
     public class RepositorioAcudienteDesignado : IRepositorioAcudienteDesignado
     {
-        private readonly SeguiAcademico.App.Persistencia.AppContext _appContext;
-        public RepositorioAcudienteDesignado(SeguiAcademico.App.Persistencia.AppContext appContext)
-        {
-            _appContext= appContext;
-        }
+        private readonly AppContext _appContext = new AppContext();
+        
         AcudienteDesignado IRepositorioAcudienteDesignado.AddAcudiente(AcudienteDesignado acudiente)
         {
             var acudienteAdicionado= _appContext.AcudientesDesignados.Add(acudiente);

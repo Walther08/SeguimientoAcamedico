@@ -8,11 +8,8 @@ namespace SeguiAcademico.App.Persistencia
 {
     public class RepositorioEstudiante : IRepositorioEstudiante
     {
-        private readonly SeguiAcademico.App.Persistencia.AppContext _appContext;
-        public RepositorioEstudiante(SeguiAcademico.App.Persistencia.AppContext appContext)
-        {
-            _appContext= appContext;
-        }
+        private readonly AppContext _appContext = new AppContext();
+        
         Estudiante IRepositorioEstudiante.AddEstudiante(Estudiante estudiante)
         {
             var estudianteAdicionado= _appContext.Estudiantes.Add(estudiante);
