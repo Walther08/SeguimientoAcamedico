@@ -38,3 +38,4 @@ C:\Seguimiento\SeguiAcademico.App\SeguiAcademico.App.Presentacion\obj\Debug\net5
 C:\Seguimiento\SeguiAcademico.App\SeguiAcademico.App.Presentacion\obj\Debug\net5.0\SeguiAcademico.App.Presentacion.pdb
 C:\Seguimiento\SeguiAcademico.App\SeguiAcademico.App.Presentacion\obj\Debug\net5.0\SeguiAcademico.App.Presentacion.genruntimeconfig.cache
 C:\Seguimiento\SeguiAcademico.App\SeguiAcademico.App.Presentacion\obj\Debug\net5.0\SeguiAcademico.App.Presentacion.csproj.CopyComplete
+C:\Seguimiento\SeguiAcademico.App\SeguiAcademico.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Pruebas\Prueba.cshtml.g.cs

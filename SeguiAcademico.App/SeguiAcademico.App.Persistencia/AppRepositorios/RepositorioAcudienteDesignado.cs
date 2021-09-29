@@ -3,6 +3,7 @@ using SeguiAcademico.App.Dominio;
 using System.Linq;
 using System;
 
+
 namespace SeguiAcademico.App.Persistencia
 {
     public class RepositorioAcudienteDesignado : IRepositorioAcudienteDesignado
@@ -41,7 +42,7 @@ namespace SeguiAcademico.App.Persistencia
             var acudienteEncontrado= _appContext.AcudientesDesignados.FirstOrDefault(a => a.Id == IdAcudiente);
             if(acudienteEncontrado==null)
             return;
-            _appContext.Remove(acudienteEncontrado);
+            _appContext.AcudientesDesignados.Remove(acudienteEncontrado);
             _appContext.SaveChanges();
         }
         AcudienteDesignado IRepositorioAcudienteDesignado.GetAcudiente(int IdAcudiente)

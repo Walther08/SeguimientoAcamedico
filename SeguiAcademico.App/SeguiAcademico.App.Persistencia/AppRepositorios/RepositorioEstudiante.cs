@@ -3,6 +3,7 @@ using SeguiAcademico.App.Dominio;
 using System.Linq;
 using System;
 
+
 namespace SeguiAcademico.App.Persistencia
 {
     public class RepositorioEstudiante : IRepositorioEstudiante
@@ -50,7 +51,7 @@ namespace SeguiAcademico.App.Persistencia
             var estudianteEncontrado= _appContext.Estudiantes.FirstOrDefault(e => e.Id == IdEstudiante);
             if(estudianteEncontrado==null)
             return;
-            _appContext.Remove(estudianteEncontrado);
+            _appContext.Estudiantes.Remove(estudianteEncontrado);
             _appContext.SaveChanges();
         }
         Estudiante IRepositorioEstudiante.GetEstudiante(int IdEstudiante)

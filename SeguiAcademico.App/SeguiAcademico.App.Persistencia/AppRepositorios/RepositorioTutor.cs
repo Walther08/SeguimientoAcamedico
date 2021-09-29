@@ -41,7 +41,7 @@ namespace SeguiAcademico.App.Persistencia
             var tutorEncontrado= _appContext.Tutores.FirstOrDefault(t => t.Id == IdTutor);
             if(tutorEncontrado==null)
             return;
-            _appContext.Remove(tutorEncontrado);
+            _appContext.Tutores.Remove(tutorEncontrado);
             _appContext.SaveChanges();
         }
         Tutor IRepositorioTutor.GetTutor(int IdTutor)
