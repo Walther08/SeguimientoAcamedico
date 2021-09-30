@@ -1,0 +1,57 @@
+﻿@page
+@model SeguiAcademico.App.Presentacion.Pages.Estudiantes.CrearModel
+@{
+}
+<h1>Creación de nuevo estudiante</h1>
+
+<form method="post">
+
+    <div class="form-group">
+        <label asp-for="estudiante.Nombre"></label>
+        <input asp-for="estudiante.Nombre" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="estudiante.Apellidos"></label>
+        <input asp-for="estudiante.Apellidos" class="form-control">
+    </div>
+    <div class="form-group">
+        <label>Número de telefono</label>
+        <input asp-for="estudiante.NumeroTelefono" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="estudiante.Genero"></label>
+        <input asp-for="estudiante.Genero" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="estudiante.Curso"></label>
+        <input asp-for="estudiante.Curso" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="estudiante.Direccion"></label>
+        <input asp-for="estudiante.Direccion" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="estudiante.Latitud"></label>
+        <input asp-for="estudiante.Latitud" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="estudiante.Longitud"></label>
+        <input asp-for="estudiante.Longitud" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="estudiante.Ciudad"></label>
+        <input asp-for="estudiante.Ciudad" class="form-control">
+    </div>
+    <div class="form-group">
+        <label>Fecha de nacimiento</label>
+        <input asp-for="estudiante.FechaNacimiento" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="estudiante.MateriasInscritas"></label>
+        <input asp-for="estudiante.MateriasInscritas" class="form-control">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Crear</button>
+
+</form>
+

@@ -2,7 +2,10 @@
 @model SeguiAcademico.App.Presentacion.Pages.Estudiantes.IndexModel
 @{
 }
-<h1>Lista de los estudiantes actuales</h1>
+<h1>Lista de los estudiantes actuales</h1> <br>
+
+<a class="btn btn-primary" asp-page="./Crear">+Nuevo Estudiante</a> <br>
+
 <table class="table">
     <thead>
         <tr>
@@ -20,7 +23,7 @@
         </tr>
     </thead>
 
-    @foreach (var i in Model.Estudiantes)
+    @foreach (var i in Model.estudiante)
     {
         <tr>
             <td>@i.Nombre</td>
