@@ -18,7 +18,10 @@ a {
 .btn-primary {
   color: #fff;
   background-color: #1b6ec2;
-  border-color: #1861ac;
+  margin: 5px;
+  margin-bottom: 20px;
+
+  /*border-color: #1861ac;*/
 }
 
 .nav-pills .nav-link.active,
@@ -30,6 +33,7 @@ a {
 
 /* User styles
 -------------------------------------------------- */
+
 .Ingreso {
   color: white;
   text-align: center;
@@ -37,9 +41,12 @@ a {
   border-radius: 15px 15px 15px 15px;
   font-family: "Montserrat", sans-serif;
   height: 100%;
-  width: 50%;
+  width: 45%;
   margin: 0 auto;
+  margin-top: 18.5%;
+  box-shadow: -3px -2px 8px 2px rgb(136, 136, 136);
 }
+
 .formulario {
   border-radius: 5px;
   color: black;
@@ -54,7 +61,7 @@ a {
 }
 
 .LetraPequeña {
-  padding: 5px;
+  margin: 5px;
   font-size: 10px;
   color: rgb(144, 144, 144);
 }

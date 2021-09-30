@@ -81,3 +81,6 @@ C:\SeguiAcademicoGitHub\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.A
 C:\SeguiAcademicoGitHub\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.App.Presentacion\obj\Debug\netcoreapp3.1\SeguiAcademico.App.Presentacion.pdb
 C:\SeguiAcademicoGitHub\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.App.Presentacion\obj\Debug\netcoreapp3.1\SeguiAcademico.App.Presentacion.genruntimeconfig.cache
 C:\SeguiAcademicoGitHub\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Ingreso\IngresoUsuario.cshtml.g.cs
+C:\SeguiAcademicoGitHub\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Ingreso\IngresoMaestro.cshtml.g.cs
+C:\SeguiAcademicoGitHub\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Ingreso\IngresoAcudiente.cshtml.g.cs
+C:\SeguiAcademicoGitHub\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Ingreso\IngresoTutor.cshtml.g.cs
