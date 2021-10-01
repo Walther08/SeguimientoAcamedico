@@ -70,6 +70,7 @@ a {
   color: #a6c3dd;
   text-decoration: none !important;
 }
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -107,7 +108,19 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
-  background-image: url(../Images/LoginBackground.jpg);
+}
+
+body.usuario {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-image: url(../Images/LoginBackground.jpg) !important;
+  background-position: center;
+}
+
+body.seguimiento {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-image: url(../Images/SeguimientoAcademicoBackground.jpg) !important;
   background-position: center;
 }
 .footer {

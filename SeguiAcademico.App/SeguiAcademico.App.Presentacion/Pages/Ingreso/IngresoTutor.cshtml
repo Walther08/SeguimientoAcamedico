@@ -3,35 +3,35 @@
 @{
 }
 
+<body class="usuario">
+    <div class="Ingreso">
+        <a asp-page="/Ingreso/IngresoUsuario">
+            <img src="../Images/IconoEstudiante.png" class="images" , title="Estudiante" width="60px" height="60px" />
+        </a>
+        <a asp-page="/Ingreso/IngresoMaestro">
+            <img class="images" , src="../Images/IconoMaestro.png" , title="Maestro" width="60px" height="60px" />
+        </a>
+        <a asp-page="#">
+            <img src="../Images/IconoTutor.png" class="images" title="Tutor" width="60px" height="60px" />
+        </a>
+        <a asp-page="/Ingreso/IngresoAcudiente">
+            <img src="../Images/IconoAcudiente.png" class="images" title="Acudiente" width="60px" height="60px" />
+        </a>
 
-<div class="Ingreso">
-    <a asp-page="/Ingreso/IngresoUsuario">
-        <img src="../Images/IconoEstudiante.png" class="images" , title="Estudiante" width="60px" height="60px" />
-    </a>
-    <a asp-page="/Ingreso/IngresoMaestro">
-        <img class="images" , src="../Images/IconoMaestro.png" , title="Maestro" width="60px" height="60px" />
-    </a>
-    <a asp-page="#">
-        <img src="../Images/IconoTutor.png" class="images" title="Tutor" width="60px" height="60px" />
-    </a>
-    <a asp-page="/Ingreso/IngresoAcudiente">
-        <img src="../Images/IconoAcudiente.png" class="images" title="Acudiente" width="60px" height="60px" />
-    </a>
+        <h4>INGRESO TUTOR</h4>
 
-    <h4>INGRESO TUTOR</h4>
+        <img src="../Images/IconoTutor.png" class="images" />
+        <br>
+        <form>
+            <input class="formulario" type="text" placeholder="Usuario"> <br>
+            <input class="formulario" type="password" placeholder="Contraseña"> <br>
 
-    <img src="../Images/IconoTutor.png" class="images" />
-    <br>
-    <form>
-        <input class="formulario" type="text" placeholder="Usuario"> <br>
-        <input class="formulario" type="password" placeholder="Contraseña"> <br>
+        </form>
 
-    </form>
+        <a href="#">
+            <p class="LetraPequeña">¿Olvidó su contraseña?</p>
+        </a>
 
-    <a href="#">
-        <p class="LetraPequeña">¿Olvidó su contraseña?</p>
-    </a>
-
-    <a class="btn btn-primary" asp-page=""> INGRESAR </a>
-    <a class="btn btn-primary" asp-page=""> REGISTRO </a>
-</div>
+        <a class="btn btn-primary" asp-page=""> INGRESAR </a>
+        <a class="btn btn-primary" asp-page=""> REGISTRO </a>
+    </div </body>
