@@ -52,7 +52,7 @@ namespace SeguiAcademico.App.Persistencia
             var historialEncontrado = _appContext.Historial.FirstOrDefault(h => h.HistorialId == IdHistorial);
             if(historialEncontrado!=null)
             {
-                var recomendacionEncontrada = _appContext.RecomendacionAcademica.FirstOrDefault(r => r.RecomendacionId == IdRecomendacion);
+                var recomendacionEncontrada = _appContext.RecomendacionAcademica.FirstOrDefault(r => r.Id == IdRecomendacion);
                 if(recomendacionEncontrada!=null)
                 {
                     historialEncontrado.RecomendacionAcademica = recomendacionEncontrada;

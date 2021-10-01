@@ -4,7 +4,7 @@ namespace SeguiAcademico.App.Dominio
 {
     public class Recomendacion
     {
-        public int RecomendacionId {get;set;}
+        public int Id {get;set;}
         public DateTime FechaPublicacion {get; set;}
         public DateTime FechaEntrega {get; set;}
         public string Materia {get; set;}
