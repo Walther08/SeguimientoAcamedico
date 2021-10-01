@@ -2,7 +2,10 @@
 for details on configuring this project to bundle and minify static web assets. */
 
 /* Fonts*/
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+/*@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");*/
+@import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Montserrat:wght@200;500;600;800&display=swap");
 
 a.navbar-brand {
   white-space: normal;
@@ -20,6 +23,7 @@ a {
   background-color: #1b6ec2;
   margin: 5px;
   margin-bottom: 20px;
+  font-weight: 800;
 
   /*border-color: #1861ac;*/
 }
@@ -37,23 +41,27 @@ a {
 .Ingreso {
   color: white;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.75);
   border-radius: 15px 15px 15px 15px;
   font-family: "Montserrat", sans-serif;
   height: 100%;
   width: 45%;
   margin: 0 auto;
   margin-top: 18.5%;
-  box-shadow: -3px -2px 8px 2px rgb(136, 136, 136);
+  /*box-shadow: -3px -2px 8px 2px rgb(136, 136, 136);*/
 }
 
 .formulario {
   border-radius: 5px;
   color: black;
   border: 0;
-  font-style: normal;
+  font-weight: 500;
   text-align: center;
   margin: 5px;
+}
+
+h4.negrilla {
+  font-weight: 800;
 }
 
 .images {
@@ -67,7 +75,7 @@ a {
 }
 
 .LetraPequeña:hover {
-  color: #a6c3dd;
+  color: #8ecae6;
   text-decoration: none !important;
 }
 
@@ -90,7 +98,7 @@ html {
 }
 
 .box-shadow {
-  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0.25rem 0.75rem rgba(231, 224, 224, 0.05);
 }
 
 button.accept-policy {
@@ -110,10 +118,38 @@ body {
   margin-bottom: 60px;
 }
 
-body.usuario {
+body.estudiante {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
-  background-image: url(../Images/LoginBackground.jpg) !important;
+  background-image: url(../Images/LoginEstudianteBackground.jpg) !important;
+  background-position: center;
+}
+
+body.maestro {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-image: url(../Images/LoginMaestroBackground.jpg) !important;
+  background-position: center;
+}
+
+body.tutor {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-image: url(../Images/LoginTutorBackground.jpg) !important;
+  background-position: center;
+}
+
+body.acudiente {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-image: url(../Images/LoginAcudienteBackground.jpg) !important;
+  background-position: center;
+}
+
+body.index {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-image: url(../Images/IndexBackground.jpg) !important;
   background-position: center;
 }
 
