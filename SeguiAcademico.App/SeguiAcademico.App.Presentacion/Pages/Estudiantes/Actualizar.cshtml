@@ -15,8 +15,36 @@
         <input asp-for="estudiante.Nombre" class="form-control" required="requerided">
     </div>
     <div class="form-group">
+        <label asp-for="estudiante.Apellidos"></label>
+        <input asp-for="estudiante.Apellidos" class="form-control" required="requerided">
+    </div>
+    <div class="form-group">
+        <label asp-for="estudiante.NumeroTelefono">Número de teléfono</label>
+        <input asp-for="estudiante.NumeroTelefono" class="form-control" required="requerided">
+    </div>
+    <div class="form-group">
         <label asp-for="estudiante.Genero"></label>
         <select asp-for="estudiante.Genero" asp-items="Html.GetEnumSelectList<Genero>()" class="form-control"></select>
+    </div>
+    <div class="form-group">
+        <label asp-for="estudiante.Curso"></label>
+        <input asp-for="estudiante.Curso" class="form-control" required="requerided">
+    </div>
+    <div class="form-group">
+        <label asp-for="estudiante.Direccion"></label>
+        <input asp-for="estudiante.Direccion" class="form-control" required="requerided">
+    </div>
+    <div class="form-group">
+        <label asp-for="estudiante.Ciudad"></label>
+        <input asp-for="estudiante.Ciudad" class="form-control" required="requerided">
+    </div>
+    <div class="form-group">
+        <label asp-for="estudiante.FechaNacimiento">Fecha de nacimiento</label>
+        <input asp-for="estudiante.FechaNacimiento" class="form-control" required="requerided">
+    </div>
+    <div class="form-group">
+        <label asp-for="estudiante.MateriasInscritas">Materias inscritas</label>
+        <input asp-for="estudiante.MateriasInscritas" class="form-control" required="requerided">
     </div>
 
     <button type="submit" class="btn btn-primary" asp-page="./Index">Actualizar</button>

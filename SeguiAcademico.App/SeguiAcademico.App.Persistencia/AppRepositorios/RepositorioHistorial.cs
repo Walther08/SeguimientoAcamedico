@@ -68,7 +68,7 @@ namespace SeguiAcademico.App.Persistencia
             var historialEncontrado = _appContext.Historial.FirstOrDefault(h => h.HistorialId == IdHistorial);
             if(historialEncontrado!=null)
             {
-                var informeEncontrado = _appContext.Informe.FirstOrDefault(i => i.InformeId == IdInforme);
+                var informeEncontrado = _appContext.Informe.FirstOrDefault(i => i.Id == IdInforme);
                 if(informeEncontrado!=null)
                 {
                     historialEncontrado.InformeSeguimiento = informeEncontrado;

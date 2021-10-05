@@ -13,6 +13,7 @@ namespace SeguiAcademico.App.Persistencia
     Estudiante GetEstudiante (int IdEstudiante);
     // AcudienteDesignado AsignAcudienteDesignado (int IdEstudiante, int IdAcudienteDesignado);
     // Maestro AsignMaestro (int IdMaestro, int IdEstudiante);
+    // Tutor AsignTutor (int IdTutor, int IdEstudiante);
     
     }
     

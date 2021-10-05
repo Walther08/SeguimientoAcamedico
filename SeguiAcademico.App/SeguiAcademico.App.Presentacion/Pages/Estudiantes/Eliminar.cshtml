@@ -6,18 +6,19 @@
 <h1>Menú eliminación de estudiantes</h1>
 <form method="POST">
 
-        <div class="form-group">
+    <div class="form-group">
         <label asp-for="estudiante.Id"></label>
         <input asp-for="estudiante.Id" class="form-control" readonly>
     </div>
     <div class="form-group">
         <label asp-for="estudiante.Nombre"></label>
-        <input asp-for="estudiante.Nombre" class="form-control" required="requerided">
+        <input asp-for="estudiante.Nombre" class="form-control">
     </div>
     <div class="form-group">
-        <label asp-for="estudiante.Genero"></label>
-        <select asp-for="estudiante.Genero" asp-items="Html.GetEnumSelectList<Genero>()" class="form-control"></select>
+        <label asp-for="estudiante.Apellidos"></label>
+        <input asp-for="estudiante.Apellidos" class="form-control">
     </div>
+    
 
     <button type="submit" class="btn btn-primary">Eliminar</button>
 

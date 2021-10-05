@@ -17,9 +17,8 @@ namespace SeguiAcademico.App.Persistencia
         }
         Estudiante IRepositorioEstudiante.UpdateEstudiante(Estudiante estudiante)
         {
-            // var estudianteEncontrado= _appContext.Estudiantes.FirstOrDefault(e => e.Id == estudiante.Id);
-            // if(estudianteEncontrado!=null)
-            var estudianteEncontrado= _appContext.Estudiantes.Find(estudiante.Id);
+            var estudianteEncontrado= _appContext.Estudiantes.FirstOrDefault(e => e.Id == estudiante.Id);
+            
             if(estudianteEncontrado!=null)
             {
                 estudianteEncontrado.Nombre= estudiante.Nombre;

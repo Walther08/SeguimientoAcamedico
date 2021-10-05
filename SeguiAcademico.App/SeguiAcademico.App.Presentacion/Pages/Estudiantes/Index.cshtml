@@ -15,8 +15,6 @@
             <th scope="col">Genero</th>
             <th scope="col">Curso</th>
             <th scope="col">Dirección</th>
-            <th scope="col">Latitud</th>
-            <th scope="col">Longitud</th>
             <th scope="col">Ciudad</th>
             <th scope="col">Fecha nacimiento</th>
             <th scope="col">Materias inscritas</th>
@@ -25,23 +23,21 @@
         </tr>
     </thead>
 
-    @foreach (var i in Model.estudiantes)
+    @foreach (var i in Model.estudiante)
     {
-        
+        <tr>
             <td>@i.Nombre</td>
             <td>@i.Apellidos</td>
             <td>@i.NumeroTelefono</td>
             <td>@i.Genero</td>
             <td>@i.Curso</td>
             <td>@i.Direccion</td>
-            <td>@i.Latitud</td>
-            <td>@i.Longitud</td>
             <td>@i.Ciudad</td>
             <td>@i.FechaNacimiento</td>
             <td>@i.MateriasInscritas</td>
             <td><a class="btn btn-secundary" asp-page="./Actualizar" asp-route-id="@i.Id">Editar</a></td>
             <td><a class="btn btn-danger" asp-page="./Eliminar" asp-route-id="@i.Id">Borrar</a></td>
+        </tr>  
     
     }
-
 </table>

@@ -9,20 +9,19 @@ using SeguiAcademico.App.Dominio;
 
 namespace SeguiAcademico.App.Presentacion.Pages.Estudiantes
 {
-
     public class ActualizarModel : PageModel
-   {
-        private readonly IRepositorioEstudiante _repoEstudiante;  
-        public Estudiante estudiante {get;set;} 
+    {
+        private readonly IRepositorioEstudiante _repoEstudiante;
+        public Estudiante estudiante { get; set; }
         public ActualizarModel(IRepositorioEstudiante _repoEstudiante)
         {
-            this._repoEstudiante= _repoEstudiante;
+            this._repoEstudiante = _repoEstudiante;
         }
         public IActionResult OnGet(int Id)
         {
-            estudiante= _repoEstudiante.GetEstudiante(Id);
-            
-            if(estudiante!=null)
+            estudiante = _repoEstudiante.GetEstudiante(Id);
+
+            if (estudiante == null)
             {
                 return NotFound();
             }
@@ -30,6 +29,7 @@ namespace SeguiAcademico.App.Presentacion.Pages.Estudiantes
             {
                 return Page();
             }
+            
         }
         public IActionResult OnPost(Estudiante estudiante)
         {
