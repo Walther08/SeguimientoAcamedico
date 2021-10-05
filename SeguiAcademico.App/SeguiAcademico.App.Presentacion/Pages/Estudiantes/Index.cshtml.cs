@@ -12,7 +12,7 @@ namespace SeguiAcademico.App.Presentacion.Pages.Estudiantes
     public class IndexModel : PageModel
     {
         private readonly IRepositorioEstudiante _repoEstudiante;  
-        public IEnumerable<Estudiante> estudiante{get;set;} 
+        public IEnumerable<Estudiante> estudiantes{get;set;} 
         public IndexModel(IRepositorioEstudiante _repoEstudiante)
         {
             this._repoEstudiante= _repoEstudiante;
@@ -20,7 +20,7 @@ namespace SeguiAcademico.App.Presentacion.Pages.Estudiantes
         
         public void OnGet()
         {
-            estudiante= _repoEstudiante.GetAllEstudiantes();
+            estudiantes= _repoEstudiante.GetAllEstudiantes();
         }
         
     }

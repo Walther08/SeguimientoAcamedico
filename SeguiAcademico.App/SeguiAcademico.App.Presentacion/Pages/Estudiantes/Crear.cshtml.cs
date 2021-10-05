@@ -22,7 +22,7 @@ namespace SeguiAcademico.App.Presentacion.Pages.Estudiantes
             estudiante = new Estudiante();
 
         }
-        public IActionResult onPost(Estudiante estudiante)
+        public IActionResult OnPost(Estudiante estudiante)
         {
             _repoEstudiante.AddEstudiante(estudiante);
             return RedirectToPage("Index");

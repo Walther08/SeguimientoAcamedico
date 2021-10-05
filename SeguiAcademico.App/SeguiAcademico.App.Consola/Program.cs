@@ -13,17 +13,20 @@ namespace SeguiAcademico.App.Consola
         private static IRepositorioAcudienteDesignado _repoAcudiente = new RepositorioAcudienteDesignado(new Persistencia.AppContext());
 
         private static IRepositorioTutor _repoTutor = new RepositorioTutor(new Persistencia.AppContext());
+        
         static void Main(string[] args)
         {
             Console.WriteLine("Hola! Aplicación de seguimiento académico =), PRUEBA 1. ");
             // AddEstudiante();
             //BuscarEstudiante(1);
             //AñadirMaestro();
-            //BuscarMastro(2);
+            //BuscarMaestro(2);
             //AñadirAcudiente();
             //BuscarAcudiente(3);
             //AñadirTutor();
-            BuscarTutor(4);
+            //BuscarTutor(4);
+            //AsignarMaestro(1,2);
+            AddEstudiante1();
 
         }
 
@@ -47,6 +50,15 @@ namespace SeguiAcademico.App.Consola
             _repoEstudiante.AddEstudiante(estudiante);
         }
 
+        private static void AddEstudiante1()
+        {
+             var estudiante = new Estudiante
+             {
+                 Nombre="Prueba_Crear"
+             };
+            _repoEstudiante.AddEstudiante(estudiante);
+        }
+
         private static void BuscarEstudiante(int idEstudiante)
         {
             var estudiante = _repoEstudiante.GetEstudiante(idEstudiante);
@@ -66,12 +78,12 @@ namespace SeguiAcademico.App.Consola
                 CursoACargo = "Segundo"
             };
             
-            _repoMaestro.AñadirMaestro(maestro); 
+            _repoMaestro.AddMaestro(maestro); 
         }
 
-        private static void BuscarMastro(int idMaestro)
+        private static void BuscarMaestro(int idMaestro)
         {
-            var maestro = _repoMaestro.BuscarMaestro(idMaestro);
+            var maestro = _repoMaestro.GetMaestro(idMaestro);
             Console.WriteLine("El maestro "+maestro.Nombre + " " + maestro.Apellidos+" fue hallado");
         }
 
@@ -115,6 +127,12 @@ namespace SeguiAcademico.App.Consola
         {
             var tutor = _repoTutor.GetTutor(IdTutor);
             Console.WriteLine("El tutor "+tutor.Nombre + " " + tutor.Apellidos+" fue hallado");
+        }
+
+        private static void AsignarMaestro(int IdMaestro, int IdEstudiante)
+        {
+            var asignacion = _repoEstudiante.AsignMaestro(IdMaestro, IdEstudiante);
+            Console.WriteLine("El maestro " + asignacion.GetMaestro(IdMaestro).Nombre + " fue asignado correctamente a " + asignacion.GetEstudiante(IdEstudiante).Nombre );
         }
     }
 

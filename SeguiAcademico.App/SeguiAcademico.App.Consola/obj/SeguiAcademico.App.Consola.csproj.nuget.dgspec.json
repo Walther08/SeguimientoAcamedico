@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Seguimiento\\SeguiAcademico.App\\seguiAcademico.App.Consola\\SeguiAcademico.App.Consola.csproj": {}
+    "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Consola\\SeguiAcademico.App.Consola.csproj": {}
   },
   "projects": {
-    "C:\\Seguimiento\\SeguiAcademico.App\\seguiAcademico.App.Consola\\SeguiAcademico.App.Consola.csproj": {
+    "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Consola\\SeguiAcademico.App.Consola.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Seguimiento\\SeguiAcademico.App\\seguiAcademico.App.Consola\\SeguiAcademico.App.Consola.csproj",
+        "projectUniqueName": "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Consola\\SeguiAcademico.App.Consola.csproj",
         "projectName": "SeguiAcademico.App.Consola",
-        "projectPath": "C:\\Seguimiento\\SeguiAcademico.App\\seguiAcademico.App.Consola\\SeguiAcademico.App.Consola.csproj",
+        "projectPath": "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Consola\\SeguiAcademico.App.Consola.csproj",
         "packagesPath": "C:\\Users\\gonza\\.nuget\\packages\\",
-        "outputPath": "C:\\Seguimiento\\SeguiAcademico.App\\seguiAcademico.App.Consola\\obj\\",
+        "outputPath": "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Consola\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gonza\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -110,6 +110,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [

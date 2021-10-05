@@ -20,12 +20,14 @@
             <th scope="col">Ciudad</th>
             <th scope="col">Fecha nacimiento</th>
             <th scope="col">Materias inscritas</th>
+            <th scope="col">Actualizar</th>
+            <th scope="col">Eliminar</th>
         </tr>
     </thead>
 
-    @foreach (var i in Model.estudiante)
+    @foreach (var i in Model.estudiantes)
     {
-        <tr>
+        
             <td>@i.Nombre</td>
             <td>@i.Apellidos</td>
             <td>@i.NumeroTelefono</td>
@@ -37,7 +39,9 @@
             <td>@i.Ciudad</td>
             <td>@i.FechaNacimiento</td>
             <td>@i.MateriasInscritas</td>
-        </tr>
+            <td><a class="btn btn-secundary" asp-page="./Actualizar" asp-route-id="@i.Id">Editar</a></td>
+            <td><a class="btn btn-danger" asp-page="./Eliminar" asp-route-id="@i.Id">Borrar</a></td>
+    
     }
 
 </table>

@@ -9,7 +9,6 @@ namespace SeguiAcademico.App.Persistencia
     public class RepositorioEstudiante : IRepositorioEstudiante
     {
         private readonly AppContext _appContext = new AppContext();
-        
         Estudiante IRepositorioEstudiante.AddEstudiante(Estudiante estudiante)
         {
             var estudianteAdicionado= _appContext.Estudiantes.Add(estudiante);
@@ -18,7 +17,9 @@ namespace SeguiAcademico.App.Persistencia
         }
         Estudiante IRepositorioEstudiante.UpdateEstudiante(Estudiante estudiante)
         {
-            var estudianteEncontrado= _appContext.Estudiantes.FirstOrDefault(e => e.Id == estudiante.Id);
+            // var estudianteEncontrado= _appContext.Estudiantes.FirstOrDefault(e => e.Id == estudiante.Id);
+            // if(estudianteEncontrado!=null)
+            var estudianteEncontrado= _appContext.Estudiantes.Find(estudiante.Id);
             if(estudianteEncontrado!=null)
             {
                 estudianteEncontrado.Nombre= estudiante.Nombre;
@@ -61,36 +62,36 @@ namespace SeguiAcademico.App.Persistencia
             return _appContext.Estudiantes;
         }
 
-        AcudienteDesignado IRepositorioEstudiante.AsignAcudienteDesignado (int IdEstudiante, int IdAcudienteDesignado)
-        {
-            var estudianteEncontrado = _appContext.Estudiantes.FirstOrDefault(e => e.Id == IdEstudiante);
-            if(estudianteEncontrado!=null)
-            {
-                var acudienteEncontrado = _appContext.AcudientesDesignados.FirstOrDefault(a => a.Id == IdAcudienteDesignado);
-                if(acudienteEncontrado!=null)
-                {
-                    estudianteEncontrado.AcudienteDesignado = acudienteEncontrado;
-                    _appContext.SaveChanges();
-                }
-                return acudienteEncontrado;
-            }
-            return null;
-        }
-        Maestro IRepositorioEstudiante.AsignMaestro(int IdMaestro, int IdEstudiante) 
-        {
-            var estudianteEncontrado = _appContext.Estudiantes.FirstOrDefault(e => e.Id == IdEstudiante);
-            if(estudianteEncontrado!=null)
-            {
-                var maestroEncontrado = _appContext.Maestros.FirstOrDefault(m => m.Id == IdMaestro);
-                if(maestroEncontrado!=null)
-                {
-                    estudianteEncontrado.Maestro = maestroEncontrado;
-                    _appContext.SaveChanges();
-                }
-                return maestroEncontrado;
-            }
-            return null;
-        }
+        // AcudienteDesignado IRepositorioEstudiante.AsignAcudienteDesignado (int IdEstudiante, int IdAcudienteDesignado)
+        // {
+        //     var estudianteEncontrado = _appContext.Estudiantes.FirstOrDefault(e => e.Id == IdEstudiante);
+        //     if(estudianteEncontrado!=null)
+        //     {
+        //         var acudienteEncontrado = _appContext.AcudientesDesignados.FirstOrDefault(a => a.Id == IdAcudienteDesignado);
+        //         if(acudienteEncontrado!=null)
+        //         {
+        //             estudianteEncontrado.AcudienteDesignado = acudienteEncontrado;
+        //             _appContext.SaveChanges();
+        //         }
+        //         return acudienteEncontrado;
+        //     }
+        //     return null;
+        // }
+        // Maestro IRepositorioEstudiante.AsignMaestro(int IdMaestro, int IdEstudiante) 
+        // {
+        //     var estudianteEncontrado = _appContext.Estudiantes.FirstOrDefault(e => e.Id == IdEstudiante);
+        //     if(estudianteEncontrado!=null)
+        //     {
+        //         var maestroEncontrado = _appContext.Maestros.FirstOrDefault(m => m.Id == IdMaestro);
+        //         if(maestroEncontrado!=null)
+        //         {
+        //             estudianteEncontrado.Maestro = maestroEncontrado;
+        //             _appContext.SaveChanges();
+        //         }
+        //         return maestroEncontrado;
+        //     }
+        //     return null;
+        // }
                   
     }
 }

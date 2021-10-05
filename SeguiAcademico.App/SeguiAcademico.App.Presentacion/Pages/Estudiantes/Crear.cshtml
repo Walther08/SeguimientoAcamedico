@@ -2,9 +2,9 @@
 @model SeguiAcademico.App.Presentacion.Pages.Estudiantes.CrearModel
 @{
 }
-<h1>Creación de nuevo estudiante</h1>
+<h1>Creación de nuevo estudiantes</h1>
 
-<form method="post">
+<form method="POST">
 
     <div class="form-group">
         <label asp-for="estudiante.Nombre"></label>
@@ -15,7 +15,7 @@
         <input asp-for="estudiante.Apellidos" class="form-control">
     </div>
     <div class="form-group">
-        <label>Número de telefono</label>
+        <label asp-for="estudiante.NumeroTelefono">Número de telefono</label>
         <input asp-for="estudiante.NumeroTelefono" class="form-control">
     </div>
     <div class="form-group">
@@ -43,11 +43,11 @@
         <input asp-for="estudiante.Ciudad" class="form-control">
     </div>
     <div class="form-group">
-        <label>Fecha de nacimiento</label>
+        <label asp-for="estudiante.FechaNacimiento">Fecha de nacimiento</label>
         <input asp-for="estudiante.FechaNacimiento" class="form-control">
     </div>
     <div class="form-group">
-        <label asp-for="estudiante.MateriasInscritas"></label>
+        <label asp-for="estudiante.MateriasInscritas">Materias inscritas</label>
         <input asp-for="estudiante.MateriasInscritas" class="form-control">
     </div>
 
