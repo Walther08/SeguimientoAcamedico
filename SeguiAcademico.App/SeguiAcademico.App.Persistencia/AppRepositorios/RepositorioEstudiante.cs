@@ -76,6 +76,7 @@ namespace SeguiAcademico.App.Persistencia
             }
             return null;
         }
+
         Maestro IRepositorioEstudiante.AsignMaestro(int IdMaestro, int IdEstudiante) 
         {
             var estudianteEncontrado = _appContext.Estudiantes.FirstOrDefault(e => e.Id == IdEstudiante);
@@ -88,6 +89,22 @@ namespace SeguiAcademico.App.Persistencia
                     _appContext.SaveChanges();
                 }
                 return maestroEncontrado;
+            }
+            return null;
+        }
+
+        Tutor IRepositorioEstudiante.AsignTutor(int IdTutor, int IdEstudiante) 
+        {
+            var estudianteEncontrado = _appContext.Estudiantes.FirstOrDefault(e => e.Id == IdEstudiante);
+            if(estudianteEncontrado!=null)
+            {
+                var tutorEncontrado = _appContext.Tutores.FirstOrDefault(t => t.Id == IdTutor);
+                if(tutorEncontrado!=null)
+                {
+                    estudianteEncontrado.Tutor = tutorEncontrado;
+                    _appContext.SaveChanges();
+                }
+                return tutorEncontrado;
             }
             return null;
         }
