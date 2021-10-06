@@ -6,11 +6,11 @@ namespace SeguiAcademico.App.Persistencia
 {
     public interface IRepositorioTutor
     {
-    IEnumerable<Tutor> GetAllTutor();
+    IEnumerable<Tutor> GetAllTutores();
     Tutor AddTutor (Tutor tutor);
     Tutor UpdateTutor (Tutor tutor);
-    void DeleteTutor (int IdTutor);
-    Tutor GetTutor (int IdTutor);
+    void DeleteTutor (int idTutor);
+    Tutor GetTutor (int idTutor);
     
     }
     

@@ -9,19 +9,23 @@ using SeguiAcademico.App.Dominio;
 
 namespace SeguiAcademico.App.Presentacion.Pages.Maestros
 {
-    public class ConsultarModel : PageModel
+    public class CrearModel : PageModel
     {
         private readonly IRepositorioMaestro _repoMaestro;
-        public IEnumerable<Maestro> maestro { get; set; }
-        public ConsultarModel(IRepositorioMaestro _repoMaestro)
+        public Maestro maestro { get; set; }
+        public CrearModel(IRepositorioMaestro _repoMaestro)
         {
             this._repoMaestro = _repoMaestro;
         }
         public void OnGet()
         {
-            maestro = _repoMaestro.GetAllMaestros();
+            maestro = new Maestro();
         }
+        public IActionResult OnPost(Maestro maestro)
+        {
+            _repoMaestro.AddMaestro(maestro);
+            return RedirectToPage("Consultar");
+        } 
 
     }
-
 }

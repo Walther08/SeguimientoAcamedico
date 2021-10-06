@@ -6,7 +6,7 @@ namespace SeguiAcademico.App.Persistencia
 {
     public interface IRepositorioAcudienteDesignado
     {
-    IEnumerable<AcudienteDesignado> GetAllAcudiente();
+    IEnumerable<AcudienteDesignado> GetAllAcudientes();
     AcudienteDesignado AddAcudiente (AcudienteDesignado acudiente);
     AcudienteDesignado UpdateAcudiente (AcudienteDesignado acudiente);
     void DeleteAcudiente (int IdAcudiente);

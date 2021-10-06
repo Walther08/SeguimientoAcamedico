@@ -1,10 +1,10 @@
 ﻿@page
-@model SeguiAcademico.App.Presentacion.Pages.Maestros.ConsultarModel
+@model SeguiAcademico.App.Presentacion.Pages.Tutores.IndexModel
 @{
 }
-<h1>Lista de los maestros actuales</h1> <br>
+<h1>Lista de los estudiantes actuales</h1> <br>
 
-<a class="btn btn-primary" asp-page="./Crear">+Nuevo Maestro</a> <br>
+<a class="btn btn-primary" asp-page="./Crear">+Nuevo tutor</a> <br>
 
 <table class="table">
     <thead>
@@ -13,28 +13,26 @@
             <th scope="col">Apellidos</th>
             <th scope="col">Número de telefono</th>
             <th scope="col">Genero</th>
-            <th scope="col">Correo Institucional</th>
             <th scope="col">Materia</th>
-            <th scope="col">Curso a cargo</th>
+            <th scope="col">Horas laborales</th>
+            <th scope="col">Correo institucional</th>
             <th scope="col">Actualizar</th>
             <th scope="col">Eliminar</th>
-           
         </tr>
     </thead>
 
-    @foreach (var i in Model.maestro)
+    @foreach (var i in Model.tutor)
     {
         <tr>
             <td>@i.Nombre</td>
             <td>@i.Apellidos</td>
             <td>@i.NumeroTelefono</td>
             <td>@i.Genero</td>
+            <td>@i.MateriaTutoria</td>
+            <td>@i.HorasLaborales</td>
             <td>@i.CorreoInstitucional</td>
-            <td>@i.Materia</td>
-            <td>@i.CursoACargo</td>
             <td><a class="btn btn-secondary" asp-page="./Actualizar" asp-route-id="@i.Id">Editar</a></td>
             <td><a class="btn btn-danger" asp-page="./Eliminar" asp-route-id="@i.Id">Borrar</a></td>
-        </tr>
+        </tr>  
     }
-
 </table>

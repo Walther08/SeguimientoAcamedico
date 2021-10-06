@@ -1,0 +1,41 @@
+﻿@page
+@using SeguiAcademico.App.Dominio
+@model SeguiAcademico.App.Presentacion.Pages.Acudientes.ActualizarModel
+@{
+}
+<h1>Menú actualización información de los tutores</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="acudiente.Id"></label>
+        <input asp-for="acudiente.Id" class="form-control" readonly>
+    </div>
+    <div class="form-group">
+        <label asp-for="acudiente.Nombre"></label>
+        <input asp-for="acudiente.Nombre" class="form-control" required="requerided">
+    </div>
+    <div class="form-group">
+        <label asp-for="acudiente.Apellidos"></label>
+        <input asp-for="acudiente.Apellidos" class="form-control" required="requerided">
+    </div>
+    <div class="form-group">
+        <label asp-for="acudiente.NumeroTelefono">Número de teléfono</label>
+        <input asp-for="acudiente.NumeroTelefono" class="form-control" required="requerided">
+    </div>
+    <div class="form-group">
+        <label asp-for="acudiente.Genero"></label>
+        <select asp-for="acudiente.Genero" asp-items="Html.GetEnumSelectList<Genero>()" class="form-control"></select>
+    </div>
+    <div class="form-group">
+        <label asp-for="acudiente.Parentesco"></label>
+        <input asp-for="acudiente.Parentesco" class="form-control" required="requerided">
+    </div>
+    <div class="form-group">
+        <label asp-for="acudiente.CorreoElectronico">Correo electrónico</label>
+        <input asp-for="acudiente.CorreoElectronico" class="form-control" required="requerided">
+    </div>
+    
+
+    <button type="submit" class="btn btn-primary" >Actualizar</button>
+
+</form> 

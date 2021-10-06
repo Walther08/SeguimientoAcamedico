@@ -47,7 +47,7 @@ namespace SeguiAcademico.App.Persistencia
             var acudienteEncontrado= _appContext.AcudientesDesignados.FirstOrDefault(a => a.Id == IdAcudiente);
             return acudienteEncontrado;
         }
-        IEnumerable<AcudienteDesignado> IRepositorioAcudienteDesignado.GetAllAcudiente()
+        IEnumerable<AcudienteDesignado> IRepositorioAcudienteDesignado.GetAllAcudientes()
         {
             return _appContext.AcudientesDesignados;
         }

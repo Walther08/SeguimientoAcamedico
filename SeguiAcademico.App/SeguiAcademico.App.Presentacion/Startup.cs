@@ -27,6 +27,8 @@ namespace SeguiAcademico.App.Presentacion
             services.AddRazorPages();
             services.AddSingleton<IRepositorioEstudiante, RepositorioEstudiante>();
             services.AddSingleton<IRepositorioMaestro, RepositorioMaestro>();
+            services.AddSingleton<IRepositorioTutor, RepositorioTutor>();
+            services.AddSingleton<IRepositorioAcudienteDesignado, RepositorioAcudienteDesignado>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -1,0 +1,40 @@
+﻿@page
+@using SeguiAcademico.App.Dominio
+@model SeguiAcademico.App.Presentacion.Pages.Tutores.CrearModel
+@{
+}
+<h1>Creación de nuevo tutor</h1>
+
+<form method="post">
+
+    <div class="form-group">
+        <label asp-for="tutor.Nombre"></label>
+        <input asp-for="tutor.Nombre" class="form-control" required="requerided">
+    </div>
+    <div class="form-group">
+        <label asp-for="tutor.Apellidos"></label>
+        <input asp-for="tutor.Apellidos" class="form-control" required="requerided">
+    </div>
+    <div class="form-group">
+        <label asp-for="tutor.NumeroTelefono">Número de telefono</label>
+        <input asp-for="tutor.NumeroTelefono" class="form-control" required="requerided">
+    </div>
+    <div class="form-group">
+        <label asp-for="tutor.Genero"></label>
+        <select asp-for="tutor.Genero" asp-items="Html.GetEnumSelectList<Genero>()" class="form-control"></select>
+    </div>
+    <div class="form-group">
+        <label asp-for="tutor.MateriaTutoria">Materia tutoria</label>
+        <input asp-for="tutor.MateriaTutoria" class="form-control" required="requerided">
+    </div>
+    <div class="form-group">
+        <label asp-for="tutor.HorasLaborales">Horas laborales</label>
+        <input asp-for="tutor.HorasLaborales" class="form-control" required="requerided">
+    </div>
+    <div class="form-group">
+        <label asp-for="tutor.CorreoInstitucional">Correo institucional</label>
+        <input asp-for="tutor.CorreoInstitucional" class="form-control" required="requerided">
+    </div>
+    <button type="submit" class="btn btn-primary">Crear</button>
+
+</form>

@@ -1,0 +1,45 @@
+﻿@page
+@using SeguiAcademico.App.Dominio
+@model SeguiAcademico.App.Presentacion.Pages.Maestros.ActualizarModel
+@{
+}
+<h1>Menú actualización mestros</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="maestro.Id"></label>
+        <input asp-for="maestro.Id" class="form-control" readonly>
+    </div>
+    <div class="form-group">
+        <label asp-for="maestro.Nombre"></label>
+        <input asp-for="maestro.Nombre" class="form-control" required="requerided">
+    </div>
+    <div class="form-group">
+        <label asp-for="maestro.Apellidos"></label>
+        <input asp-for="maestro.Apellidos" class="form-control" required="requerided">
+    </div>
+    <div class="form-group">
+        <label asp-for="maestro.NumeroTelefono">Número de teléfono</label>
+        <input asp-for="maestro.NumeroTelefono" class="form-control" required="requerided">
+    </div>
+    <div class="form-group">
+        <label asp-for="maestro.Genero"></label>
+        <select asp-for="maestro.Genero" asp-items="Html.GetEnumSelectList<Genero>()" class="form-control"></select>
+    </div>
+    <div class="form-group">
+        <label asp-for="maestro.Materia"></label>
+        <input asp-for="maestro.Materia" class="form-control" required="requerided">
+    </div>
+    <div class="form-group">
+        <label asp-for="maestro.CorreoInstitucional">Coreo institucional</label>
+        <input asp-for="maestro.CorreoInstitucional" class="form-control" required="requerided">
+    </div>
+    <div class="form-group">
+        <label asp-for="maestro.CursoACargo">Cursos a cargo</label>
+        <input asp-for="maestro.CursoACargo" class="form-control" required="requerided">
+    </div>
+    
+
+    <button type="submit" class="btn btn-primary" >Actualizar</button>
+
+</form> 
