@@ -99,11 +99,12 @@ h4.negrilla {
 }
 
 .grid-container img:hover {
-  -webkit-transform: scale(1.05);
-  -moz-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  -o-transform: scale(1.05);
-  transform: scale(1.05);
+  -webkit-transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  -o-transform: scale(0.95);
+  transform: scale(0.95);
+  filter: drop-shadow(0.2vh 0.1vh 0.2vh rgba(0, 0, 0, 0.8));
 }
 
 .team-member {
@@ -123,10 +124,12 @@ h4.negrilla {
 
 .team-image2 {
   margin-left: 4vw;
+  filter: drop-shadow(0.3vh 0.3vh 0.4vh rgba(0, 0, 0, 0.6));
 }
 
 .team-image {
   margin-left: -2vw;
+  filter: drop-shadow(0.3vh 0.3vh 0.4vh rgba(0, 0, 0, 0.6));
 }
 /* Sticky footer styles
 -------------------------------------------------- */
