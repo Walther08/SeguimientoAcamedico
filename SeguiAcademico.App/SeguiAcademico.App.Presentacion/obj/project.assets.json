@@ -5738,19 +5738,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gonza\\.nuget\\packages\\": {}
+    "C:\\Users\\aleja\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Presentacion\\SeguiAcademico.App.Presentacion.csproj",
+      "projectUniqueName": "C:\\SeguiAcademicoBackUp\\SeguimientoAcamedico\\SeguiAcademico.App\\SeguiAcademico.App.Presentacion\\SeguiAcademico.App.Presentacion.csproj",
       "projectName": "SeguiAcademico.App.Presentacion",
-      "projectPath": "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Presentacion\\SeguiAcademico.App.Presentacion.csproj",
-      "packagesPath": "C:\\Users\\gonza\\.nuget\\packages\\",
-      "outputPath": "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Presentacion\\obj\\",
+      "projectPath": "C:\\SeguiAcademicoBackUp\\SeguimientoAcamedico\\SeguiAcademico.App\\SeguiAcademico.App.Presentacion\\SeguiAcademico.App.Presentacion.csproj",
+      "packagesPath": "C:\\Users\\aleja\\.nuget\\packages\\",
+      "outputPath": "C:\\SeguiAcademicoBackUp\\SeguimientoAcamedico\\SeguiAcademico.App\\SeguiAcademico.App.Presentacion\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\gonza\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\aleja\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5760,13 +5760,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Dominio\\SeguiAcademico.App.Dominio.csproj": {
-              "projectPath": "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Dominio\\SeguiAcademico.App.Dominio.csproj"
+            "C:\\SeguiAcademicoBackUp\\SeguimientoAcamedico\\SeguiAcademico.App\\SeguiAcademico.App.Dominio\\SeguiAcademico.App.Dominio.csproj": {
+              "projectPath": "C:\\SeguiAcademicoBackUp\\SeguimientoAcamedico\\SeguiAcademico.App\\SeguiAcademico.App.Dominio\\SeguiAcademico.App.Dominio.csproj"
             },
-            "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Persistencia\\SeguiAcademico.App.Persistencia.csproj": {
-              "projectPath": "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Persistencia\\SeguiAcademico.App.Persistencia.csproj"
+            "C:\\SeguiAcademicoBackUp\\SeguimientoAcamedico\\SeguiAcademico.App\\SeguiAcademico.App.Persistencia\\SeguiAcademico.App.Persistencia.csproj": {
+              "projectPath": "C:\\SeguiAcademicoBackUp\\SeguimientoAcamedico\\SeguiAcademico.App\\SeguiAcademico.App.Persistencia\\SeguiAcademico.App.Persistencia.csproj"
             }
           }
         }
@@ -5779,7 +5778,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -5798,7 +5796,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
       }
     }
   }

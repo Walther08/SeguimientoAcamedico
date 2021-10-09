@@ -1,0 +1,12 @@
+C:\SeguiAcademicoBackUp\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.App.Persistencia\bin\Debug\netstandard2.1\SeguiAcademico.App.Persistencia.deps.json
+C:\SeguiAcademicoBackUp\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.App.Persistencia\bin\Debug\netstandard2.1\SeguiAcademico.App.Persistencia.dll
+C:\SeguiAcademicoBackUp\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.App.Persistencia\bin\Debug\netstandard2.1\SeguiAcademico.App.Persistencia.pdb
+C:\SeguiAcademicoBackUp\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.App.Persistencia\bin\Debug\netstandard2.1\SeguiAcademico.App.Dominio.dll
+C:\SeguiAcademicoBackUp\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.App.Persistencia\bin\Debug\netstandard2.1\SeguiAcademico.App.Dominio.pdb
+C:\SeguiAcademicoBackUp\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.App.Persistencia\obj\Debug\netstandard2.1\SeguiAcademico.App.Persistencia.csprojAssemblyReference.cache
+C:\SeguiAcademicoBackUp\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.App.Persistencia\obj\Debug\netstandard2.1\SeguiAcademico.App.Persistencia.AssemblyInfoInputs.cache
+C:\SeguiAcademicoBackUp\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.App.Persistencia\obj\Debug\netstandard2.1\SeguiAcademico.App.Persistencia.AssemblyInfo.cs
+C:\SeguiAcademicoBackUp\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.App.Persistencia\obj\Debug\netstandard2.1\SeguiAcademico.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\SeguiAcademicoBackUp\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.App.Persistencia\obj\Debug\netstandard2.1\SeguiAcademico.App.Persistencia.csproj.CopyComplete
+C:\SeguiAcademicoBackUp\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.App.Persistencia\obj\Debug\netstandard2.1\SeguiAcademico.App.Persistencia.dll
+C:\SeguiAcademicoBackUp\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.App.Persistencia\obj\Debug\netstandard2.1\SeguiAcademico.App.Persistencia.pdb
