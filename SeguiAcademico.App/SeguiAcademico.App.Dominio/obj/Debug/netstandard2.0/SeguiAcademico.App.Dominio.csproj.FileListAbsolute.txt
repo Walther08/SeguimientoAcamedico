@@ -1,0 +1,9 @@
+C:\SeguiAcademicoBackUp\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.App.Dominio\bin\Debug\netstandard2.0\SeguiAcademico.App.Dominio.deps.json
+C:\SeguiAcademicoBackUp\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.App.Dominio\bin\Debug\netstandard2.0\SeguiAcademico.App.Dominio.dll
+C:\SeguiAcademicoBackUp\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.App.Dominio\bin\Debug\netstandard2.0\SeguiAcademico.App.Dominio.pdb
+C:\SeguiAcademicoBackUp\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.App.Dominio\obj\Debug\netstandard2.0\SeguiAcademico.App.Dominio.csprojAssemblyReference.cache
+C:\SeguiAcademicoBackUp\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.App.Dominio\obj\Debug\netstandard2.0\SeguiAcademico.App.Dominio.AssemblyInfoInputs.cache
+C:\SeguiAcademicoBackUp\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.App.Dominio\obj\Debug\netstandard2.0\SeguiAcademico.App.Dominio.AssemblyInfo.cs
+C:\SeguiAcademicoBackUp\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.App.Dominio\obj\Debug\netstandard2.0\SeguiAcademico.App.Dominio.csproj.CoreCompileInputs.cache
+C:\SeguiAcademicoBackUp\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.App.Dominio\obj\Debug\netstandard2.0\SeguiAcademico.App.Dominio.dll
+C:\SeguiAcademicoBackUp\SeguimientoAcamedico\SeguiAcademico.App\SeguiAcademico.App.Dominio\obj\Debug\netstandard2.0\SeguiAcademico.App.Dominio.pdb
