@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gonza\\OneDrive\\Escritorio\\SeguiAcademico\\SeguimientoAcamedico\\SeguiAcademico.App\\SeguiAcademico.App.Presentacion\\SeguiAcademico.App.Presentacion.csproj": {}
+    "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Presentacion\\SeguiAcademico.App.Presentacion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gonza\\OneDrive\\Escritorio\\SeguiAcademico\\SeguimientoAcamedico\\SeguiAcademico.App\\SeguiAcademico.App.Dominio\\SeguiAcademico.App.Dominio.csproj": {
+    "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Dominio\\SeguiAcademico.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gonza\\OneDrive\\Escritorio\\SeguiAcademico\\SeguimientoAcamedico\\SeguiAcademico.App\\SeguiAcademico.App.Dominio\\SeguiAcademico.App.Dominio.csproj",
+        "projectUniqueName": "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Dominio\\SeguiAcademico.App.Dominio.csproj",
         "projectName": "SeguiAcademico.App.Dominio",
-        "projectPath": "C:\\Users\\gonza\\OneDrive\\Escritorio\\SeguiAcademico\\SeguimientoAcamedico\\SeguiAcademico.App\\SeguiAcademico.App.Dominio\\SeguiAcademico.App.Dominio.csproj",
+        "projectPath": "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Dominio\\SeguiAcademico.App.Dominio.csproj",
         "packagesPath": "C:\\Users\\gonza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gonza\\OneDrive\\Escritorio\\SeguiAcademico\\SeguimientoAcamedico\\SeguiAcademico.App\\SeguiAcademico.App.Dominio\\obj\\",
+        "outputPath": "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gonza\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -59,14 +59,14 @@
         }
       }
     },
-    "C:\\Users\\gonza\\OneDrive\\Escritorio\\SeguiAcademico\\SeguimientoAcamedico\\SeguiAcademico.App\\SeguiAcademico.App.Persistencia\\SeguiAcademico.App.Persistencia.csproj": {
+    "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Persistencia\\SeguiAcademico.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gonza\\OneDrive\\Escritorio\\SeguiAcademico\\SeguimientoAcamedico\\SeguiAcademico.App\\SeguiAcademico.App.Persistencia\\SeguiAcademico.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Persistencia\\SeguiAcademico.App.Persistencia.csproj",
         "projectName": "SeguiAcademico.App.Persistencia",
-        "projectPath": "C:\\Users\\gonza\\OneDrive\\Escritorio\\SeguiAcademico\\SeguimientoAcamedico\\SeguiAcademico.App\\SeguiAcademico.App.Persistencia\\SeguiAcademico.App.Persistencia.csproj",
+        "projectPath": "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Persistencia\\SeguiAcademico.App.Persistencia.csproj",
         "packagesPath": "C:\\Users\\gonza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gonza\\OneDrive\\Escritorio\\SeguiAcademico\\SeguimientoAcamedico\\SeguiAcademico.App\\SeguiAcademico.App.Persistencia\\obj\\",
+        "outputPath": "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gonza\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -81,8 +81,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Users\\gonza\\OneDrive\\Escritorio\\SeguiAcademico\\SeguimientoAcamedico\\SeguiAcademico.App\\SeguiAcademico.App.Dominio\\SeguiAcademico.App.Dominio.csproj": {
-                "projectPath": "C:\\Users\\gonza\\OneDrive\\Escritorio\\SeguiAcademico\\SeguimientoAcamedico\\SeguiAcademico.App\\SeguiAcademico.App.Dominio\\SeguiAcademico.App.Dominio.csproj"
+              "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Dominio\\SeguiAcademico.App.Dominio.csproj": {
+                "projectPath": "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Dominio\\SeguiAcademico.App.Dominio.csproj"
               }
             }
           }
@@ -137,14 +137,14 @@
         }
       }
     },
-    "C:\\Users\\gonza\\OneDrive\\Escritorio\\SeguiAcademico\\SeguimientoAcamedico\\SeguiAcademico.App\\SeguiAcademico.App.Presentacion\\SeguiAcademico.App.Presentacion.csproj": {
+    "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Presentacion\\SeguiAcademico.App.Presentacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gonza\\OneDrive\\Escritorio\\SeguiAcademico\\SeguimientoAcamedico\\SeguiAcademico.App\\SeguiAcademico.App.Presentacion\\SeguiAcademico.App.Presentacion.csproj",
+        "projectUniqueName": "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Presentacion\\SeguiAcademico.App.Presentacion.csproj",
         "projectName": "SeguiAcademico.App.Presentacion",
-        "projectPath": "C:\\Users\\gonza\\OneDrive\\Escritorio\\SeguiAcademico\\SeguimientoAcamedico\\SeguiAcademico.App\\SeguiAcademico.App.Presentacion\\SeguiAcademico.App.Presentacion.csproj",
+        "projectPath": "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Presentacion\\SeguiAcademico.App.Presentacion.csproj",
         "packagesPath": "C:\\Users\\gonza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gonza\\OneDrive\\Escritorio\\SeguiAcademico\\SeguimientoAcamedico\\SeguiAcademico.App\\SeguiAcademico.App.Presentacion\\obj\\",
+        "outputPath": "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Presentacion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gonza\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -159,11 +159,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\gonza\\OneDrive\\Escritorio\\SeguiAcademico\\SeguimientoAcamedico\\SeguiAcademico.App\\SeguiAcademico.App.Dominio\\SeguiAcademico.App.Dominio.csproj": {
-                "projectPath": "C:\\Users\\gonza\\OneDrive\\Escritorio\\SeguiAcademico\\SeguimientoAcamedico\\SeguiAcademico.App\\SeguiAcademico.App.Dominio\\SeguiAcademico.App.Dominio.csproj"
+              "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Dominio\\SeguiAcademico.App.Dominio.csproj": {
+                "projectPath": "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Dominio\\SeguiAcademico.App.Dominio.csproj"
               },
-              "C:\\Users\\gonza\\OneDrive\\Escritorio\\SeguiAcademico\\SeguimientoAcamedico\\SeguiAcademico.App\\SeguiAcademico.App.Persistencia\\SeguiAcademico.App.Persistencia.csproj": {
-                "projectPath": "C:\\Users\\gonza\\OneDrive\\Escritorio\\SeguiAcademico\\SeguimientoAcamedico\\SeguiAcademico.App\\SeguiAcademico.App.Persistencia\\SeguiAcademico.App.Persistencia.csproj"
+              "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Persistencia\\SeguiAcademico.App.Persistencia.csproj": {
+                "projectPath": "C:\\Seguimiento\\SeguiAcademico.App\\SeguiAcademico.App.Persistencia\\SeguiAcademico.App.Persistencia.csproj"
               }
             }
           }
@@ -178,25 +178,27 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.7, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.9, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.0, )"
             },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[3.1.5, )"
             }
           },
           "imports": [
