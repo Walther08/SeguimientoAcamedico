@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+
 
 namespace SeguiAcademico.App.Dominio
 {
@@ -10,9 +12,8 @@ namespace SeguiAcademico.App.Dominio
         public string Materia {get; set;}
         public string Tematica {get; set;}
         //Entidades asociadas
-        public Maestro MaestroEncargado {get; set;}
         public TipoActividad TipoActividad {get; set;}
         public EstadoAvance EstadoAvance {get;set;}
-        //¡Cómo se define que debe ir un documento adjunto (taller, tarea, actividad, etc.)?
+        
     }
 }

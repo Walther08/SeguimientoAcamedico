@@ -1,0 +1,25 @@
+﻿@page
+@model SeguiAcademico.App.Presentacion.Pages.Historiales.IndexModel
+@{
+}
+<body>
+    <h1>Lista de los historiales actuales</h1> <br>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Observaciones</th>
+            </tr>
+        </thead>
+
+        @foreach (var i in Model.historial)
+        {
+            <tr>
+                <td>@i.Observaciones</td>
+            </tr>
+        }
+    
+    </table>
+
+
+</body>

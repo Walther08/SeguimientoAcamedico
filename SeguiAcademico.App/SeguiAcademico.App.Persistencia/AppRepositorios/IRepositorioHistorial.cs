@@ -10,7 +10,7 @@ namespace SeguiAcademico.App.Persistencia
     Historial GetHistorial (int IdHistorial);
     void DeleteHistorial (int IdHistorial);
     Historial UpdateHistorial (Historial historial);
-    Recomendacion AsignRecomendacion (int IdHistorial, int IdRecomendacion);
-    Informe AsignInforme (int IdHistorial, int IdInforme);
+    IEnumerable<Historial> GetAllHistoriales();
+    
     }
 }

@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace SeguiAcademico.App.Dominio
 {
@@ -8,8 +9,7 @@ namespace SeguiAcademico.App.Dominio
         public int HistorialId {get;set;}
         public string Observaciones {get;set;}
         //Entidades asociadas
-        public Recomendacion RecomendacionAcademica {get;set;}
-        public Informe InformeSeguimiento {get;set;}
+        public List<Recomendacion> RecomendacionAcademica {get;set;}
         
     }
 }

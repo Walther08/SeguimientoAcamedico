@@ -9,24 +9,18 @@ using SeguiAcademico.App.Dominio;
 
 namespace SeguiAcademico.App.Presentacion.Pages.Estudiantes
 {
-    public class CrearModel : PageModel
+    public class DetallesModel : PageModel
     {
         private readonly IRepositorioEstudiante _repoEstudiante;
-        public Estudiante estudiante { get; set; }
-        public AcudienteDesignado acudiente { get; set; }
-        public CrearModel(IRepositorioEstudiante _repoEstudiante)
+        public IEnumerable<Estudiante> estudiante { get; set; }
+        public DetallesModel(IRepositorioEstudiante _repoEstudiante)
         {
             this._repoEstudiante = _repoEstudiante;
         }
+
         public void OnGet()
         {
-            estudiante = new Estudiante();
-
-        }
-        public IActionResult OnPost(Estudiante estudiante)
-        {
-            _repoEstudiante.AddEstudiante(estudiante);
-            return RedirectToPage("Index");
+            estudiante = _repoEstudiante.GetAllEstudiantes();
         }
     }
 }

@@ -1,0 +1,45 @@
+﻿@page
+@using SeguiAcademico.App.Dominio
+@model SeguiAcademico.App.Presentacion.Pages.Estudiantes.DetallesModel
+@{
+}
+<h1>Detalles de
+    @foreach (var i in Model.estudiante)
+    {
+        <tr>
+            <td>@i.Nombre</td>
+            <td>@i.Apellidos</td>
+        </tr>
+    }
+</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Número de telefono</th>
+            <th scope="col">Genero</th>
+            <th scope="col">Curso</th>
+            <th scope="col">Direccion</th>
+            <th scope="col">Ciudad</th>
+            <th scope="col">Fecha Nacimiento</th>
+            <th scope="col">Materias Inscritas</th>
+            <th scope="col">Tutor</th>
+            <th scope="col">Maestro</th>
+            <th scope="col">Historial</th>
+        </tr>
+    </thead>
+
+    @foreach (var i in Model.estudiante)
+    {
+        <tr>
+            <td>@i.NumeroTelefono</td>
+            <td>@i.Genero</td>
+            <td>@i.Curso</td>
+            <td>@i.Direccion</td>
+            <td>@i.Ciudad</td>
+            <td>@i.FechaNacimiento</td>
+            <td>@i.MateriasInscritas</td>
+            @* <td>@i.Tutor.Nombre</td> *@
+        </tr>
+    }
+</table>

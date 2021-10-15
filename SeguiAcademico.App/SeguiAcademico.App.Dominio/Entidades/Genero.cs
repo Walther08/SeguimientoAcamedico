@@ -7,6 +7,9 @@ namespace SeguiAcademico.App.Dominio
     {
         Masculino,
         Femenino,
-        Trans
+        Bisexual,
+        Intersexual,
+        Pansexual,
+        Transexual
     }
 }

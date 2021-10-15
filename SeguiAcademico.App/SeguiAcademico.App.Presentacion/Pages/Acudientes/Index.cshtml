@@ -15,6 +15,7 @@
             <th scope="col">Genero</th>
             <th scope="col">Parentesco</th>
             <th scope="col">Correo electrónico</th>
+            <th scope="col">Información</th>
             <th scope="col">Actualizar</th>
             <th scope="col">Eliminar</th>
         </tr>
@@ -29,6 +30,7 @@
             <td>@i.Genero</td>
             <td>@i.Parentesco</td>
             <td>@i.CorreoElectronico</td>
+            <td><a class="btn btn-secondary" asp-page="./Acudientes/Asignacion" >Información</a> </td>
             <td><a class="btn btn-secondary" asp-page="./Actualizar" asp-route-id="@i.Id"><svg
                     xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
                     class="bi bi-pencil-square" viewBox="0 0 16 16">

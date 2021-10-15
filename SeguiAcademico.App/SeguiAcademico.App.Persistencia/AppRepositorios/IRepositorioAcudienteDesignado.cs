@@ -13,5 +13,4 @@ namespace SeguiAcademico.App.Persistencia
     AcudienteDesignado GetAcudiente (int IdAcudiente);
     
     }
-    
 }
