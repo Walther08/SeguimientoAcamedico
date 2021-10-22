@@ -1,0 +1,12 @@
+C:\Seguimiento\SeguiAcademico.App\SeguiAcademico.App.Persistencia\bin\Release\netstandard2.1\SeguiAcademico.App.Persistencia.deps.json
+C:\Seguimiento\SeguiAcademico.App\SeguiAcademico.App.Persistencia\bin\Release\netstandard2.1\SeguiAcademico.App.Persistencia.dll
+C:\Seguimiento\SeguiAcademico.App\SeguiAcademico.App.Persistencia\bin\Release\netstandard2.1\SeguiAcademico.App.Persistencia.pdb
+C:\Seguimiento\SeguiAcademico.App\SeguiAcademico.App.Persistencia\bin\Release\netstandard2.1\SeguiAcademico.App.Dominio.dll
+C:\Seguimiento\SeguiAcademico.App\SeguiAcademico.App.Persistencia\bin\Release\netstandard2.1\SeguiAcademico.App.Dominio.pdb
+C:\Seguimiento\SeguiAcademico.App\SeguiAcademico.App.Persistencia\obj\Release\netstandard2.1\SeguiAcademico.App.Persistencia.csproj.AssemblyReference.cache
+C:\Seguimiento\SeguiAcademico.App\SeguiAcademico.App.Persistencia\obj\Release\netstandard2.1\SeguiAcademico.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Seguimiento\SeguiAcademico.App\SeguiAcademico.App.Persistencia\obj\Release\netstandard2.1\SeguiAcademico.App.Persistencia.AssemblyInfoInputs.cache
+C:\Seguimiento\SeguiAcademico.App\SeguiAcademico.App.Persistencia\obj\Release\netstandard2.1\SeguiAcademico.App.Persistencia.AssemblyInfo.cs
+C:\Seguimiento\SeguiAcademico.App\SeguiAcademico.App.Persistencia\obj\Release\netstandard2.1\SeguiAcademico.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Seguimiento\SeguiAcademico.App\SeguiAcademico.App.Persistencia\obj\Release\netstandard2.1\SeguiAcademico.App.Persistencia.dll
+C:\Seguimiento\SeguiAcademico.App\SeguiAcademico.App.Persistencia\obj\Release\netstandard2.1\SeguiAcademico.App.Persistencia.pdb

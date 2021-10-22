@@ -17,7 +17,7 @@ namespace SeguiAcademico.App.Persistencia
             if (!optionsBuilder.IsConfigured)
             {
                 optionsBuilder
-                .UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = SeguiAcademico.App.Db");
+                .UseSqlServer("Server=tcp:databaseappseguiacademico.database.windows.net,1433;Initial Catalog=SeguiAcademico;Persist Security Info=False;User ID=walther08;Password=@Kz_1104;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
             }
         }
     }

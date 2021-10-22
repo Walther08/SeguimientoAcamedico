@@ -1,0 +1,227 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+/* Fonts*/
+/*@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");*/
+@import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Montserrat:wght@200;500;600;800&display=swap");
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  margin: 5px;
+  margin-bottom: 20px;
+  font-weight: 600;
+
+  /*border-color: #1861ac;*/
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* User styles
+-------------------------------------------------- */
+
+.Ingreso {
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 15px 15px 15px 15px;
+  font-family: "Montserrat", sans-serif;
+  height: 100%;
+  width: 45%;
+  margin: 0 auto;
+  margin-top: 21vh;
+  /*box-shadow: -3px -2px 8px 2px rgb(136, 136, 136);*/
+}
+
+.formulario {
+  border-radius: 5px;
+  color: black;
+  border: 0;
+  font-weight: 500;
+  text-align: center;
+  margin: 5px;
+}
+
+h4.negrilla {
+  font-weight: 800;
+}
+
+.images {
+  margin: 20px 5px 20px 5px;
+}
+
+.LetraPequeña {
+  margin: 5px;
+  font-size: 10px;
+  color: rgb(144, 144, 144);
+}
+
+.LetraPequeña:hover {
+  color: #8ecae6;
+  text-decoration: none !important;
+}
+
+.letragrande {
+  font-size: 50px;
+}
+
+.grid-container {
+  margin-top: 9vh;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: 150px auto;
+  grid-template-areas:
+    "team-image team-member"
+    "team-image team-member"
+    "team-image team-member"
+    "team-image team-member";
+  grid-gap: 2vh;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.grid-container img:hover {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.team-member {
+  padding: 1.5vh 1vh 1vh 1vh;
+  margin-left: -2vw;
+}
+
+.team-member2 {
+  padding: 1.5vh 1vh 1vh 1vh;
+  margin-left: 4vw;
+}
+
+.grid-container a {
+  color: #023047;
+  margin-right: 1vw;
+}
+
+.team-image2 {
+  margin-left: 4vw;
+}
+
+.team-image {
+  margin-left: -2vw;
+}
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 0.25rem 0.75rem rgba(231, 224, 224, 0.05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+body.estudiante {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-image: url(../Images/LoginEstudianteBackground.jpg) !important;
+  background-position: center;
+}
+
+body.maestro {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-image: url(../Images/LoginMaestroBackground.jpg) !important;
+  background-position: center;
+}
+
+body.interfaz-maestro {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-image: url(../Images/IGMaestroBackground.jpg) !important;
+  background-position: center;
+}
+
+body.tutor {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-image: url(../Images/LoginTutorBackground.jpg) !important;
+  background-position: center;
+}
+
+body.acudiente {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-image: url(../Images/LoginAcudienteBackground.jpg) !important;
+  background-position: center;
+}
+
+body.seguimiento {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-image: url(../Images/SeguimientoAcademicoBackground.jpg) !important;
+  background-position: center;
+}
+
+body.contactanos {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-image: url(../Images/ContactanosBackground.jpg) !important;
+  background-position: center;
+}
+
+.footer {
+  position: absolute;
+  background-color: white;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}

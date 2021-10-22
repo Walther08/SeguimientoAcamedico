@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using SeguiAcademico.App.Persistencia;
 using SeguiAcademico.App.Dominio;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SeguiAcademico.App.Presentacion.Pages.Historiales
 {
+    [Authorize]
     public class IndexModel : PageModel
     {
         private readonly IRepositorioHistorial _repoHistorial;

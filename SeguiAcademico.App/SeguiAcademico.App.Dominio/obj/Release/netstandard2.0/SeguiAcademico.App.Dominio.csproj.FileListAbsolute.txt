@@ -1,0 +1,10 @@
+C:\Seguimiento\SeguiAcademico.App\SeguiAcademico.App.Dominio\bin\Release\netstandard2.0\SeguiAcademico.App.Dominio.deps.json
+C:\Seguimiento\SeguiAcademico.App\SeguiAcademico.App.Dominio\bin\Release\netstandard2.0\SeguiAcademico.App.Dominio.dll
+C:\Seguimiento\SeguiAcademico.App\SeguiAcademico.App.Dominio\bin\Release\netstandard2.0\SeguiAcademico.App.Dominio.pdb
+C:\Seguimiento\SeguiAcademico.App\SeguiAcademico.App.Dominio\obj\Release\netstandard2.0\SeguiAcademico.App.Dominio.csproj.AssemblyReference.cache
+C:\Seguimiento\SeguiAcademico.App\SeguiAcademico.App.Dominio\obj\Release\netstandard2.0\SeguiAcademico.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Seguimiento\SeguiAcademico.App\SeguiAcademico.App.Dominio\obj\Release\netstandard2.0\SeguiAcademico.App.Dominio.AssemblyInfoInputs.cache
+C:\Seguimiento\SeguiAcademico.App\SeguiAcademico.App.Dominio\obj\Release\netstandard2.0\SeguiAcademico.App.Dominio.AssemblyInfo.cs
+C:\Seguimiento\SeguiAcademico.App\SeguiAcademico.App.Dominio\obj\Release\netstandard2.0\SeguiAcademico.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Seguimiento\SeguiAcademico.App\SeguiAcademico.App.Dominio\obj\Release\netstandard2.0\SeguiAcademico.App.Dominio.dll
+C:\Seguimiento\SeguiAcademico.App\SeguiAcademico.App.Dominio\obj\Release\netstandard2.0\SeguiAcademico.App.Dominio.pdb

@@ -12,14 +12,50 @@
                 href="https://www.mineducacion.gov.co/1759/w3-article-401231.html?_noredirect=1">protocolos de
                 Bioseguridad</a>
         </p>
+        <h2>¿Qué quieres hacer hoy?👀</h2>
     </div>
 
     <div>
-        <a class="btn btn-secondary" asp-page="/Estudiantes/Index">Interfaz Gráfica Estudiante</a>
-        <a class="btn btn-secondary" asp-page="/Maestros/Consultar">Interfaz Gráfica Maestro</a>
-        <a class="btn btn-secondary" asp-page="/Tutores/Index">Interfaz Gráfica Tutor</a>
-        <a class="btn btn-secondary" asp-page="/Acudientes/Index">Interfaz Gráfica Acudiente</a>
-        <a class="btn btn-secondary" asp-page="/Historiales/Index">Interfaz Gráfica Historiales</a>
+        
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Menú</th>
+                    <th scope="col">Descripción</th>
+                    <th scope="col">Enlace</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Estudiante</td>
+                    <td>Acá podrás crear un nuevo Estudiante asignarle un maestro o tutor. También puedes revisar el historial con las observaciones que le han dejado.</td>
+                    <td> <a class="btn btn-success" asp-page="/Estudiantes/Index">💡</a></td>
+                </tr>
+                <tr>
+                    <td>Maestro</td>
+                    <td>Acá podrás crear un nuevo Maestro, consultar, modificar o eliminar su información.</td>
+                    <td><a class="btn btn-success" asp-page="/Maestros/Consultar">👨🏼‍🏫</a></td>
+                </tr>
+                <tr>    
+                
+                    <td>Tutor</td>
+                    <td>Acá podrás crear un nuevo Tutor, consultar, modificar o eliminar su información.</td>
+                    <td><a class="btn btn-success" asp-page="/Tutores/Index">📕</a></td>
+                </tr>
+                <tr>    
+                
+                    <td>Acudiente</td>
+                    <td><p>Acá podrás crear un nuevo Acudiente, consultar, modificar o eliminar su información.</td>
+                    <td><a class="btn btn-success" asp-page="/Acudientes/Index">👨‍👩‍👧‍👧</a></td>
+                </tr>
+                <tr>    
+                    <td>Historial</td>
+                    <td>Acá podrás consultar los historiales registrados.</td>
+                    <td><a class="btn btn-success" asp-page="/Historiales/Index">🧐</a></td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 </body>
 
